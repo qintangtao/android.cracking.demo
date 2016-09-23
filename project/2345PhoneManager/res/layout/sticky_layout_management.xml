@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wave="http://schemas.android.com/apk/res-auto">
+    <com.market2345.customview.StickyLayout android:orientation="vertical" android:id="@id/sticky_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sticky_header" android:background="@color/main_blue_new" android:layout_width="fill_parent" android:layout_height="124.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_weight="1.0">
+                <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.market2345.customview.download.CleanAccelerationBallView android:layout_gravity="center_horizontal" android:id="@id/wv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_pellet_floating_layer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pellet_zhezao_2" />
+                    <TextView android:textSize="40.0dip" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50" />
+                </FrameLayout>
+                <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sticky_floating" android:background="@color/main_blue_new" android:paddingTop="4.0dip" android:paddingBottom="9.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_progress_relpace" android:background="@drawable/pellet_numberbg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60%" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/fenlei_00" android:gravity="center" android:id="@id/tv_ram_prompt" android:background="@drawable/management_btn_clean_bg" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/ram_init" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/fenlei_00" android:gravity="center" android:id="@id/tv_gotocleandump" android:background="@drawable/pellet_text_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="13.0dip" android:text="@string/mobile_have_dump_goto_clean" android:drawableLeft="@drawable/pellet_warning" android:drawableRight="@drawable/pellet_more" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+        <ScrollView android:orientation="vertical" android:id="@id/sticky_content" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:background="#ffe6e6e6" android:padding="0.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_upgrade" android:background="@drawable/gridview_bg_selector" android:layout_width="fill_parent" android:layout_height="84.0dip">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:src="@drawable/management_updateicon" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_weight="1.0">
+                            <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="应用升级" />
+                            <include android:id="@id/layout_upgrade_app_icons" layout="@layout/layout_app_icons" />
+                        </LinearLayout>
+                        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_upgrade_count" android:background="@drawable/apps_count_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.market2345.dumpclean.widget.ScrollViewGridView android:gravity="center" android:id="@id/gv_content" android:background="#ffe6e6e6" android:padding="0.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:listSelector="@null" android:horizontalSpacing="1.0dip" android:verticalSpacing="1.0dip" android:numColumns="3" />
+            </LinearLayout>
+        </ScrollView>
+    </com.market2345.customview.StickyLayout>
+</LinearLayout>

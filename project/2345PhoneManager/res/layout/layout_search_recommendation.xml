@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/search_fragment_bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grid="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/search_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/search_category_vs" android:layout="@layout/search_category_vs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/search_recommendation" android:background="@color/search_fragment_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/search_recommendation_header" android:background="@color/search_fragment_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/qr_result_vcard_title" android:layout_gravity="center_vertical" android:background="@color/search_fragment_bg" android:paddingTop="15.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_suggestion_hot" android:layout_weight="1.0" />
+                <LinearLayout android:id="@id/refresh_view" android:background="@color/search_fragment_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/refresh_icon" android:background="@color/search_fragment_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_update_loading" />
+                    <TextView android:textSize="@dimen/default_suggestion_textSize" android:textColor="@color/main_blue_new" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@color/search_fragment_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/refresh_between" android:text="@string/search_refresh" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.market2345.customview.GridLayout android:id="@id/search_recommendation_content" android:background="@color/search_fragment_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:useDefaultMargins="false" grid:columnCount="4" />
+            <ViewStub android:id="@id/search_history" android:paddingTop="5.0dip" android:layout="@layout/search_history_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

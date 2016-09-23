@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="about_height1">48.0dip</dimen>
+    <dimen name="about_height2">40.0dip</dimen>
+    <dimen name="about_height3">14.0dip</dimen>
+    <dimen name="about_height4">5.0dip</dimen>
+    <dimen name="about_height5">18.0dip</dimen>
+    <dimen name="about_height7">72.0dip</dimen>
+    <dimen name="about_image_height">132.0dip</dimen>
+    <dimen name="about_image_width">213.0dip</dimen>
+    <dimen name="about_item_height">43.0dip</dimen>
+    <dimen name="guide_hotshowicon_height1">320.0dip</dimen>
+    <dimen name="rank_margin_width">28.0dip</dimen>
+    <dimen name="guide_viewpager_height1">55.0dip</dimen>
+</resources>

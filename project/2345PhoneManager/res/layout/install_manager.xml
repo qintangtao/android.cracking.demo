@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/main_blue_new" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/left_btn" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" android:contentDescription="@null" style="@style/style_wrap_fill" />
+        <TextView android:id="@id/page_title" android:text="@string/install_manager" android:drawablePadding="0.0dip" android:layout_toRightOf="@id/left_btn" style="@style/page_title_style" />
+    </RelativeLayout>
+    <RadioGroup android:orientation="horizontal" android:background="@drawable/uninstall_indicator_item_normal" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:checkedButton="@id/user_installed">
+        <RadioButton android:textColor="@color/app_details_indicator_item" android:gravity="center" android:id="@id/user_installed" android:background="@drawable/uninstall_indicator_item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:button="@null" android:text="@string/user_apps" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@color/app_details_indicator_item" android:gravity="center" android:id="@id/sys_installed" android:background="@drawable/uninstall_indicator_item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/sys_apps" android:layout_weight="1.0" />
+    </RadioGroup>
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

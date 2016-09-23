@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_size">
+        <item>50M</item>
+        <item>100M</item>
+        <item>300M</item>
+        <item>500M</item>
+    </string-array>
+    <string-array name="array_times">
+        <item>每天</item>
+        <item>每隔3天</item>
+        <item>每隔7天</item>
+        <item>每隔15天</item>
+    </string-array>
+    <string-array name="empty_subject_strings">
+        <item>无主题</item>
+    </string-array>
+    <string-array name="file_mime_type">
+        <item>文本</item>
+        <item>音频</item>
+        <item>视频</item>
+        <item>图片</item>
+    </string-array>
+</resources>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="com.market2345" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="com.qihoo360.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher2.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher2.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.app.twlauncher.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.app.twlauncher.READ_SETTINGS"/>
+    <uses-permission android:name="org.adw.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="org.adw.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="org.adwfreak.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="org.adwfreak.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.gau.go.launcherex.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.gau.go.launcherex.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.qihoo360.home.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.qihoo360.home.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.fede.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.fede.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.lenovo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.lenovo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.nd.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.nd.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.launcher3.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <permission android:name="com.market2345.permission.JPUSH_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.market2345.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.market2345"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name_new_logo" android:name="com.market2345.MarketApplication">
+        <uses-library android:name="android.test.runner"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.applist.AppListActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.applist.activity.ClassifyListActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.applist.activity.ClassifyListActivityNew" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.applist.activity.WonderfulFoundActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.market2345.home.HomeTabActivity" android:screenOrientation="portrait" android:theme="@style/Welcome_Activity_Translate_Theme" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="2345market.intent.action.DOWNLOAD_LIST"/>
+                <action android:name="action.2345manager.mainactivity"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <action android:name="com.market2345.search"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="market2345"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.market2345.home.FakeActivityForPCService" android:process="com.phonemanager2345.zhushou" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.detail.DetailActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.market2345.manager.IgnoredAppsActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.about.AboutActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.feedback.FeedBackActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <provider android:authorities="com.market2345.2345market_download_report" android:exported="false" android:name="com.market2345.common.util.DownloadReportProvider"/>
+        <provider android:authorities="com.market2345.2345dataprovider" android:exported="false" android:name="com.market2345.datacenter.DataProvider"/>
+        <receiver android:name="com.market2345.autocheck.CheckResidentServiceReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.market2345.settings.SettingActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.dumpclean.CleanSetActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.lm.activity.FastinstallActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <provider android:authorities="com.market2345.2345market" android:exported="true" android:name="com.market2345.common.util.MarketProvider"/>
+        <service android:name="com.market2345.autocheck.AutoResidentService" android:persistent="true">
+            <intent-filter android:priority="2147483647">
+                <action android:name="com.market2345.resident.bind"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.phonemanager2345.zhushou.ConnectionService" android:persistent="true" android:process="com.phonemanager2345.zhushou">
+            <intent-filter android:priority="2147483647">
+                <action android:name="com.phonemanager2345.zhushou.connect.pc"/>
+                <action android:name="com.phonemanager2345.zhushou.persistent"/>
+                <action android:name="com.phonemanager2345.zhushou.connection.status"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.market2345.filebrowser.MusicService"/>
+        <receiver android:exported="true" android:name="com.phonemanager2345.zhushou.ServiceBroadcastReceiver" android:process="com.phonemanager2345.zhushou.ConnectionService">
+            <intent-filter>
+                <action android:name="2345PhoneManagerServiceStart"/>
+                <action android:name="2345PhoneManagerServiceStop"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.market2345.notificationmanage.NotificationHandleReceiver"/>
+        <receiver android:exported="true" android:name="com.market2345.AppInstallOrUninstallReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+                <action android:name="android.intent.action.PACKAGE_FIRST_LAUNCH"/>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <action android:name="android.intent.action.PACKAGE_NEEDS_VERIFICATION"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_RESTARTED"/>
+                <action android:name="android.intent.action.PACKAGE_VERIFIED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.market2345.cacheclean.CleanMainACtivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.cacheclean.CleanVestigitalActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.cacheclean.CleanCacheActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.cacheclean.CleanApkActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.cacheclean.CleanBigFileActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.cacheclean.ClearUnInstallDialog" android:screenOrientation="portrait" android:theme="@style/dialog"/>
+        <activity android:name="com.market2345.cacheclean.CleanIgnoreActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.dumpclean.CleanTrustActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.dumpclean.FileDetailsActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.startup.StartupActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.market2345.clean.shortcut.shortcutActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <action android:name="com.market2345.clean"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.google.zxing.client.android.CaptureActivity" android:screenOrientation="portrait" android:stateNotNeeded="true" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.market2345.qrscan.QRResultActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.filebrowser.FileCategoryActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.filebrowser.FilePicDirActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.filebrowser.FileImageActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.filebrowser.FileBigImageActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.filebrowser.FileMusicActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.filebrowser.FileVideoActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.filebrowser.FileDocumentsActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.filebrowser.FileApkActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.filebrowser.FilePackageActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.wificonn.ConnPCGuideActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.market2345.wificonn.WifiConnDialogActivity" android:screenOrientation="portrait" android:theme="@style/dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.wificonn.WifiConnectedActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.wificonn.WifiReceivedDialogActivity" android:screenOrientation="portrait" android:theme="@style/dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.wificonn.WifiReceivedFilesActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.market2345.wificonn.ShadowActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.applist.activity.MoreRankListActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.update.UpdateDialogActivity" android:screenOrientation="portrait" android:theme="@style/dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.update.WifiUpdateDialogActivity" android:screenOrientation="portrait" android:theme="@style/dialog"/>
+        <activity android:name="com.market2345.manager.InstallManagerActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.manager.UpdateAppActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.topic.TopicActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.topic.WebViewTopicActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.settings.UserPlanActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="com.market2345.messages.MessagesManagerTestActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <provider android:authorities="com.market2345.vallnyDownloads" android:exported="true" android:name="com.market2345.download.DownloadProvider"/>
+        <service android:name="com.market2345.download.DownloadService"/>
+        <receiver android:name="com.market2345.download.NetWorkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.statistic2345.service.InCommingReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="com.statistic2345.com.market2345"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.PushService">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER"/>
+                <action android:name="cn.jpush.android.intent.REPORT"/>
+                <action android:name="cn.jpush.android.intent.PushService"/>
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:name="cn.jpush.android.service.PushReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
+                <category android:name="com.market2345"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="cn.jpush.android.ui.PushActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.market2345"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.download.view.SignatureErrorDialogActivity" android:screenOrientation="portrait" android:theme="@style/dialog"/>
+        <service android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.DownloadService"/>
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver"/>
+        <receiver android:enabled="true" android:name="com.market2345.jpush.JPushReceiver">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"/>
+                <category android:name="com.market2345"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="JPUSH_CHANNEL" android:value="developer-default"/>
+        <meta-data android:name="JPUSH_APPKEY" android:value="cf5690153027dd6b9f417f62"/>
+        <meta-data android:name="project_name" android:value="zhushou"/>
+        <meta-data android:name="app_key" android:value="e749042c5a18a3f915875177bf86e755"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="51d4df2456240b22aa00514b"/>
+        <meta-data android:name="APP_KEY" android:value="724233cf5533e55f72782dd1adc97009"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="jf2"/>
+        <activity android:name="com.market2345.dumpclean.CleanOverActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.dumpclean.FileDetailsActivityPaths" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:name="com.market2345.dumpclean.main.SilverActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.account.LoginActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.account.RegisterActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.market2345.account.PrivateCenterActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.account.PrivateInfoActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.account.ChangePasswordActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.account.ForgetPasswordActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.account.ResetPwdActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent1101209129"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="sensor" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.account.gift.GameGiftActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.market2345.account.gift.GiftDetailActivity" android:screenOrientation="portrait" android:theme="@style/Activity_Translate_Theme"/>
+    </application>
+</manifest>

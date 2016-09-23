@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="@dimen/default_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="horizontal" android:id="@id/rg_comment_type" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:layout_marginRight="@dimen/default_15dp" android:splitMotionEvents="false">
+                <com.market2345.customview.DrawableCenterRadioButton android:textSize="12.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/rb_comment_type_good" android:background="@drawable/detail_comment_good_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <com.market2345.customview.DrawableCenterRadioButton android:textSize="12.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/rb_comment_type_general" android:background="@drawable/detail_comment_general_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <com.market2345.customview.DrawableCenterRadioButton android:textSize="12.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/rb_comment_type_poor" android:background="@drawable/detail_comment_poor_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+            </RadioGroup>
+            <FrameLayout android:paddingLeft="@dimen/default_15dp" android:paddingRight="@dimen/default_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip">
+                <EditText android:textSize="15.0sp" android:textColor="@color/account_text_color" android:textColorHint="@color/hinttextcolor" android:gravity="center|left|top" android:id="@id/et_comment_content" android:background="@drawable/edittext_bg_selector" android:paddingLeft="@dimen/default_10dp" android:paddingTop="@dimen/default_10dp" android:paddingRight="@dimen/default_10dp" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="我要说两句~" android:maxLines="6" android:minLines="5" android:maxLength="100" android:textCursorDrawable="@null" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/default_15dp" android:layout_marginBottom="@dimen/default_15dp">
+                <TextView android:textSize="14.0sp" android:textColor="@color/detail_cancel_button" android:layout_gravity="bottom|center|right" android:id="@id/tv_feedback_comment_remain_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/default_fivedp" android:layout_marginBottom="2.0dip" android:text="" android:singleLine="true" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="@dimen/default_15dp" android:textColor="@color/detail_submit_button" android:gravity="center" android:id="@id/btn_comment_commit" android:background="@drawable/app_detail_submit_comment_bg_selector" android:layout_width="100.0dip" android:layout_height="35.0dip" android:text="提交评论" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <include android:id="@id/comments_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_details_comment_indicator_1" />
+    </LinearLayout>
+</LinearLayout>

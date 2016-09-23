@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/banner_topic_view" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/head_layout" android:background="@drawable/classmark_bg" android:paddingTop="6.5dip" android:paddingBottom="6.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.market2345.customview.DrawableCenterTextView android:textSize="@dimen/recommend_item_textsize" android:textColor="@color/recommend_item_textcolor" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/position_one" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+            <View android:layout_gravity="center" android:background="@color/recommend_area_border_color" android:layout_width="0.5dip" android:layout_height="22.0dip" />
+            <com.market2345.customview.DrawableCenterTextView android:textSize="@dimen/recommend_item_textsize" android:textColor="@color/recommend_item_textcolor" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/position_two" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:layout_gravity="center" android:background="@color/recommend_area_border_color" android:layout_width="0.5dip" android:layout_height="22.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.market2345.customview.DrawableCenterTextView android:textSize="@dimen/recommend_item_textsize" android:textColor="@color/recommend_item_textcolor" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/position_three" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+            <View android:layout_gravity="center" android:background="@color/recommend_area_border_color" android:layout_width="0.5dip" android:layout_height="22.0dip" />
+            <com.market2345.customview.DrawableCenterTextView android:textSize="@dimen/recommend_item_textsize" android:textColor="@color/recommend_item_textcolor" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/position_four" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

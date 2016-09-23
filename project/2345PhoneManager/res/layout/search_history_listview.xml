@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/search_history_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/search_history_lv" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:scrollingCache="false" android:cacheColorHint="@color/search_suggestion_item_pressed" android:divider="@color/home_bottom_list_divider" android:dividerHeight="0.5dip" android:overScrollMode="never" android:splitMotionEvents="false" />
+    <View android:id="@id/search_historydivider_footer" android:background="@color/dropdownlistview_divider" android:layout_width="fill_parent" android:layout_height="@dimen/default_0.5dp" android:layout_below="@id/search_history_lv" />
+    <RelativeLayout android:id="@id/search_history_footer" android:background="@drawable/search_suggestion_item_background" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_below="@id/search_historydivider_footer">
+        <ImageView android:id="@id/history_time" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/default_15dp" android:src="@drawable/historyclean_grey" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textColor="@color/normal_gray" android:ellipsize="end" android:gravity="center_vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/search_history_cleanup" android:maxEms="10" android:singleLine="true" android:layout_toRightOf="@id/history_time" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

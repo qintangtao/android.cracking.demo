@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar_layout" android:background="@color/main_blue_new" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/ibtn_left" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" style="@style/style_wrap_fill" />
+        <TextView android:textSize="17.0dip" android:id="@id/page_title" android:text="@string/trust_clean_name" android:layout_toRightOf="@id/ibtn_left" style="@style/page_title_style" />
+    </RelativeLayout>
+    <ListView android:id="@id/lv_list" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@android:color/transparent" android:layout_below="@id/title_bar_layout" android:headerDividersEnabled="false" android:splitMotionEvents="false" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emptylay" android:background="@color/transparent" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/expandlistview">
+        <TextView android:textSize="15.0sp" android:textColor="@color/fenlei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_clean_set_add_you_like_item" android:drawableTop="@drawable/list_icon_fail" android:drawablePadding="17.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ll_title" layout="@layout/dialog_title_text" />
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大小 : " />
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:id="@id/tv_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="版本 : " />
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:id="@id/tv_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="日期 : " />
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="路径 : " />
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:id="@id/tv_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="3.3Mb" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/main_blue_new" android:gravity="center|left" android:id="@id/tv_go_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ignore_all_packages_under_this_path" android:drawablePadding="3.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="left" android:id="@id/rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip">
+        <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/clean_suggest_default" android:maxEms="2" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:id="@id/dialog_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="大小：5.5MB" android:maxEms="2" android:layout_below="@id/dialog_message" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/main_blue_new" android:gravity="center|left" android:id="@id/dialogcheckbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:checked="true" android:button="@null" android:text="@string/contain_number_file" android:drawableLeft="@drawable/notebook_icon" android:drawablePadding="6.0dip" android:layout_below="@id/dialog_size" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <include layout="@layout/dialog_buttom_both_btn" />
+</LinearLayout>

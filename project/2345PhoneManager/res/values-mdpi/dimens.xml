@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="about_height1">44.0dip</dimen>
+    <dimen name="about_height2">20.0dip</dimen>
+    <dimen name="about_height3">9.0dip</dimen>
+    <dimen name="about_height4">4.0dip</dimen>
+    <dimen name="about_height5">14.0dip</dimen>
+    <dimen name="about_height7">21.0dip</dimen>
+    <dimen name="about_image_height">109.0dip</dimen>
+    <dimen name="about_image_width">175.0dip</dimen>
+    <dimen name="about_item_height">35.0dip</dimen>
+    <dimen name="guide_hotshowicon_height1">305.0dip</dimen>
+</resources>

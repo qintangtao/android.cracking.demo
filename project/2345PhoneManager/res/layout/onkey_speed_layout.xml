@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relativelayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_back" android:background="@drawable/desk_clear_background_leftmenu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/desk_clear_low_clip" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <ImageView android:id="@id/image_waterlevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/desk_clear_circle_min_waterlevel" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <ImageView android:id="@id/image_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/desk_clear_water_top" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/text_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20%" android:layout_alignLeft="@id/image_top" android:layout_alignTop="@id/image_top" android:layout_alignRight="@id/image_top" android:layout_alignBottom="@id/image_top" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.market2345.customview.DrawableCenterRadioButton android:background="@android:color/transparent" android:layout_width="8.0dip" android:layout_height="8.0dip" android:button="@null" android:drawableLeft="@drawable/auto_scroll_view_pager_dots_selector"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

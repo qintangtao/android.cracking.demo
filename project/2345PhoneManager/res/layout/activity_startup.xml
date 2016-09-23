@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/default_blank" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/main_blue_new" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/ib_top_back" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" android:layout_centerVertical="true" android:contentDescription="@null" style="@style/style_wrap_fill" />
+        <TextView android:id="@id/tv_title" android:layout_marginLeft="1.0dip" android:text="开机启动优化" android:layout_toRightOf="@id/ib_top_back" style="@style/page_title_style" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_startup_count" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <ImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/mobile_clear_info_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/tv_startup_count_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="一共有 " android:layout_toRightOf="@id/iv_icon" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffff8041" android:id="@id/tv_startup_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_toRightOf="@id/tv_startup_count_left" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/tv_startup_count_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 款开机启动软件" android:layout_toRightOf="@id/tv_startup_count" android:layout_centerVertical="true" />
+        <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/lv_startup_software" android:background="@color/white" android:visibility="visible" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:cacheColorHint="@android:color/transparent" android:divider="@color/main_divide_color" android:dividerHeight="0.5dip" android:splitMotionEvents="false" />
+    <RelativeLayout android:gravity="center" android:id="@id/rl_loading_nodata" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/pb_loading" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/my_progress_style" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff666666" android:gravity="center" android:id="@id/tv_nodata" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="恭喜您，没有发现开机启动软件!" />
+    </RelativeLayout>
+</LinearLayout>

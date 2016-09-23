@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/activity_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/file_management_base_top_menu" />
+    <GridView android:id="@id/gv_image" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:listSelector="@null" android:horizontalSpacing="15.0dip" android:numColumns="2" android:layout_below="@id/top_menu" />
+    <include android:id="@id/no_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/file_management_base_no_data" />
+</RelativeLayout>

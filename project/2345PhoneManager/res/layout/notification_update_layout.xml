@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:padding="3.0dip" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginRight="3.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_notifi_title" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="17.0sp" android:ellipsize="end" android:id="@id/tv_notifi_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2345手机助手有新版本可以升级" android:singleLine="true" />
+        <TextView android:textColor="@color/main_blue_new" android:ellipsize="end" android:id="@id/tv_notifi_text" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新版本：" android:singleLine="true" android:layout_below="@id/tv_notifi_title" />
+        <TextView android:textColor="#ff999999" android:ellipsize="end" android:id="@id/tv_text1" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.新增加牛逼的A功能" android:singleLine="true" android:layout_below="@id/tv_notifi_text" />
+        <TextView android:textColor="#ff999999" android:ellipsize="end" android:id="@id/tv_text2" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2.新增加牛逼的B功能" android:singleLine="true" android:layout_below="@id/tv_text1" />
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/iv_notifi_update" android:background="@drawable/notifi_install_bg_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="15.0dip" android:text="下载升级" android:layout_below="@id/tv_text2" />
+    </RelativeLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@color/app_detail_desc" android:ellipsize="end" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="5.0dip" android:text="12:30" android:singleLine="true" />
+</LinearLayout>

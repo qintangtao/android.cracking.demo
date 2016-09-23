@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar_layout" android:background="@color/main_blue_new" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/left_btn" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" android:layout_centerVertical="true" android:onClick="back" android:contentDescription="@null" style="@style/style_wrap_fill" />
+        <TextView android:id="@id/page_title" android:layout_marginLeft="1.0dip" android:text="@string/wifi_received_files_title" android:drawablePadding="0.0dip" android:layout_toRightOf="@id/left_btn" style="@style/page_title_style" />
+        <ImageView android:id="@id/wifi_received_del_all" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/file_management_top_right_delete_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="deleteAll" android:contentDescription="@null" />
+    </RelativeLayout>
+    <ListView android:id="@id/wifi_received_files" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/qr_result_background" android:dividerHeight="0.5dip" android:layout_below="@id/title_bar_layout" android:splitMotionEvents="false" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/empty_view" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_below="@id/title_bar_layout">
+        <TextView android:textSize="15.0sp" android:textColor="@color/fenlei" android:gravity="center" android:id="@id/received_files_empty_tv" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:text="@string/received_files_empty" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sendfiles" android:layout_above="@id/received_files_empty_tv" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    </RelativeLayout>
+</RelativeLayout>

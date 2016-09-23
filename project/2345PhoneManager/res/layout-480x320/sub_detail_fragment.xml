@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/id_stickynavlayout_innerscrollview" android:background="@color/default_blank" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_detail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:id="@id/detail_gallery_horizontalScrollView" android:paddingTop="@dimen/default_fivedp" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/default_fivedp" android:paddingRight="@dimen/default_fivedp" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/rl_pic_0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_fivedp">
+                    <ImageView android:id="@id/pic_0" android:background="@drawable/appdetail_gallery_item_bg" android:visibility="visible" android:layout_width="155.0dip" android:layout_height="258.0dip" android:layout_marginLeft="10.0dip" android:scaleType="fitXY" android:contentDescription="@null" />
+                    <ImageView android:id="@id/iv_check_big_img_0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/detail_check_big_img" android:layout_alignRight="@id/pic_0" android:layout_alignBottom="@id/pic_0" android:contentDescription="@null" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_pic_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/pic_1" android:background="@drawable/appdetail_gallery_item_bg" android:visibility="visible" android:layout_width="155.0dip" android:layout_height="258.0dip" android:layout_marginLeft="@dimen/default_fivedp" android:layout_marginRight="@dimen/default_fivedp" android:scaleType="fitXY" android:contentDescription="@null" />
+                    <ImageView android:id="@id/iv_check_big_img_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/detail_check_big_img" android:layout_alignRight="@id/pic_1" android:layout_alignBottom="@id/pic_1" android:contentDescription="@null" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_pic_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/pic_2" android:background="@drawable/appdetail_gallery_item_bg" android:visibility="visible" android:layout_width="155.0dip" android:layout_height="258.0dip" android:layout_marginLeft="@dimen/default_fivedp" android:layout_marginRight="@dimen/default_fivedp" android:scaleType="fitXY" android:contentDescription="@null" />
+                    <ImageView android:id="@id/iv_check_big_img_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/detail_check_big_img" android:layout_alignRight="@id/pic_2" android:layout_alignBottom="@id/pic_2" android:contentDescription="@null" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_pic_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/pic_3" android:background="@drawable/appdetail_gallery_item_bg" android:visibility="visible" android:layout_width="155.0dip" android:layout_height="258.0dip" android:layout_marginLeft="@dimen/default_fivedp" android:layout_marginRight="@dimen/default_fivedp" android:scaleType="fitXY" android:contentDescription="@null" />
+                    <ImageView android:id="@id/iv_check_big_img_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/detail_check_big_img" android:layout_alignRight="@id/pic_3" android:layout_alignBottom="@id/pic_3" android:contentDescription="@null" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_pic_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/pic_4" android:background="@drawable/appdetail_gallery_item_bg" android:visibility="visible" android:layout_width="155.0dip" android:layout_height="258.0dip" android:layout_marginLeft="@dimen/default_fivedp" android:layout_marginRight="@dimen/default_fivedp" android:scaleType="fitXY" android:contentDescription="@null" />
+                    <ImageView android:id="@id/iv_check_big_img_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/detail_check_big_img" android:layout_alignRight="@id/pic_4" android:layout_alignBottom="@id/pic_4" android:contentDescription="@null" />
+                </RelativeLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingBottom="24.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_vertical" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/default_15dp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:text="@string/week_find002" android:layout_alignParentLeft="true" />
+                <com.market2345.customview.ToggleText android:textSize="14.0sp" android:textColor="@color/expandtextcolor" android:id="@id/expandbutton" android:paddingRight="@dimen/default_15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/app_detail_description_expand" android:drawablePadding="@dimen/default_fivedp" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/special_item_first" android:id="@id/appdetail_summary" android:paddingLeft="@dimen/default_15dp" android:paddingTop="12.5dip" android:paddingRight="@dimen/default_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/default_fivedp" />
+        </LinearLayout>
+        <View android:background="#ffe8e8e8" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/default_15dp" android:textColor="@color/detailtextcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:text="版本信息" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/rl_version_language" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_15dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/fenlei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:text="版本：" android:layout_alignParentLeft="true" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/detailtextcolor" android:ellipsize="end" android:id="@id/versionleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/fenlei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更新：" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/detailtextcolor" android:ellipsize="end" android:id="@id/updateright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_fivedp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/fenlei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:text="语言：" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/detailtextcolor" android:ellipsize="end" android:id="@id/languageleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/fenlei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="系统：" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/detailtextcolor" android:ellipsize="end" android:id="@id/tv_support_system" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_author" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="13.0sp" android:textColor="@color/fenlei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="作者：" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/detailtextcolor" android:ellipsize="end" android:id="@id/authorleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/dropdownlistview_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/default_15dp" android:textColor="@color/detailtextcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:text="@string/week_find004" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_tag" android:background="@color/white" android:paddingLeft="@dimen/app_detail_tag_padding_left" android:paddingTop="5.0dip" android:paddingRight="@dimen/app_detail_tag_padding_right" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_comment" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/dropdownlistview_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="@dimen/default_15dp" android:textColor="@color/detailtextcolor" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:text="@string/week_find005" android:layout_alignParentTop="true" />
+            <RelativeLayout android:paddingBottom="@dimen/default_15dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/rl_score_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_30dp" android:layout_marginTop="17.0dip">
+                    <LinearLayout android:id="@id/ll_score" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="39.0dip" android:textColor="@color/detailtextcolor" android:id="@id/tv_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8.0" />
+                        <TextView android:textSize="17.0dip" android:textColor="@color/detailtextcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分" android:layout_toRightOf="@id/tv_score" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0dip" android:textColor="@color/detail_comment_remain_size_normal" android:id="@id/tv_person_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1000" android:layout_below="@id/ll_score" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/detail_comment_remain_size_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="人评论" android:layout_toRightOf="@id/tv_person_count" android:layout_below="@id/ll_score" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="@dimen/default_15dp" android:layout_toRightOf="@id/rl_score_layout">
+                    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/detail_cancel_button" android:id="@id/tv_good" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/default_10dp" android:text="好评" android:layout_alignParentLeft="true" />
+                        <RelativeLayout android:gravity="center_vertical" android:background="@color/item_progress_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_toLeftOf="@id/tv_good_percent" android:layout_toRightOf="@id/tv_good">
+                            <ImageView android:id="@id/iv_good_clip" android:background="@drawable/good_clip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                        </RelativeLayout>
+                        <TextView android:textSize="11.0dip" android:textColor="@color/item_app_des" android:gravity="right" android:id="@id/tv_good_percent" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="100.0%" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/default_10dp" android:layout_weight="1.0">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/detail_cancel_button" android:id="@id/tv_general" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/default_10dp" android:text="中评" android:layout_alignParentLeft="true" />
+                        <RelativeLayout android:gravity="center" android:background="@color/item_progress_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_toLeftOf="@id/tv_general_percent" android:layout_toRightOf="@id/tv_general">
+                            <ImageView android:id="@id/iv_general_clip" android:background="@drawable/general_clip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                        </RelativeLayout>
+                        <TextView android:textSize="11.0dip" android:textColor="@color/item_app_des" android:gravity="right" android:id="@id/tv_general_percent" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="21.7%" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/default_10dp" android:layout_weight="1.0">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/detail_cancel_button" android:id="@id/tv_poor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/default_10dp" android:text="差评" android:layout_alignParentLeft="true" />
+                        <RelativeLayout android:gravity="center_vertical" android:background="@color/item_progress_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_toLeftOf="@id/tv_poor_percent" android:layout_toRightOf="@id/tv_poor">
+                            <ImageView android:id="@id/iv_poor_clip" android:background="@drawable/poor_clip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                        </RelativeLayout>
+                        <TextView android:textSize="11.0dip" android:textColor="@color/item_app_des" android:gravity="right" android:id="@id/tv_poor_percent" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="17.0%" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="@color/dropdownlistview_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/default_10dp" android:layout_marginRight="@dimen/default_10dp" />
+            <com.market2345.customview.DropDownListView android:id="@id/lv_five_comments" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+            <RelativeLayout android:id="@id/rl_check_more" android:background="@drawable/dra_com_dia_btn_grey" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                <Button android:textColor="#ff3091f2" android:id="@id/btn_check_more" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/default_15dp" android:text="查看更多评论" android:drawableRight="@drawable/app_detail_comment_more_right" android:drawablePadding="@dimen/default_10dp" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/dropdownlistview_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="@dimen/default_15dp" android:textColor="#ff333333" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:text="发表评论" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/rg_comment_type" android:background="@color/white" android:paddingTop="@dimen/default_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:layout_marginRight="@dimen/default_15dp" android:splitMotionEvents="false">
+                <com.market2345.customview.DrawableCenterRadioButton android:textSize="12.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/rb_comment_type_good" android:background="@drawable/detail_comment_good_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <com.market2345.customview.DrawableCenterRadioButton android:textSize="12.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/rb_comment_type_general" android:background="@drawable/detail_comment_general_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <com.market2345.customview.DrawableCenterRadioButton android:textSize="12.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/rb_comment_type_poor" android:background="@drawable/detail_comment_poor_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+            </RadioGroup>
+            <FrameLayout android:paddingLeft="@dimen/default_15dp" android:paddingRight="@dimen/default_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip">
+                <EditText android:textSize="15.0sp" android:textColor="@color/account_text_color" android:textColorHint="@color/hinttextcolor" android:gravity="center|left|top" android:id="@id/et_comment_content" android:background="@drawable/edittext_bg_selector" android:paddingLeft="@dimen/default_10dp" android:paddingTop="@dimen/default_10dp" android:paddingRight="@dimen/default_10dp" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="我要说两句~" android:maxLines="6" android:minLines="5" android:maxLength="100" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_15dp" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/default_15dp" android:layout_marginBottom="@dimen/default_15dp">
+                <TextView android:textSize="14.0sp" android:textColor="@color/detail_cancel_button" android:layout_gravity="bottom|center|right" android:id="@id/tv_feedback_comment_remain_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/default_fivedp" android:layout_marginBottom="2.0dip" android:text="" android:singleLine="true" android:layout_alignParentLeft="true" />
+                <Button android:textSize="@dimen/default_15dp" android:textColor="@color/detail_submit_button" android:id="@id/btn_comment_commit" android:background="@drawable/app_detail_submit_comment_bg_selector" android:layout_width="100.0dip" android:layout_height="35.0dip" android:text="提交评论" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

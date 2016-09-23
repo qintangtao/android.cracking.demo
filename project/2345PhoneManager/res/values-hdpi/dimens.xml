@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="categoryLegend">9.0dip</dimen>
+    <dimen name="about_height1">48.0dip</dimen>
+    <dimen name="about_height2">33.0dip</dimen>
+    <dimen name="about_height3">9.0dip</dimen>
+    <dimen name="about_height4">3.0dip</dimen>
+    <dimen name="about_height5">15.0dip</dimen>
+    <dimen name="about_height7">42.0dip</dimen>
+    <dimen name="about_image_height">110.0dip</dimen>
+    <dimen name="about_image_width">177.0dip</dimen>
+    <dimen name="about_item_height">38.0dip</dimen>
+    <dimen name="guide_hotshowicon_height1">310.0dip</dimen>
+    <dimen name="rank_margin_width">20.0dip</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/wifi_pre_conn" layout="@layout/wifi_pre_conn_dialog" />
+    <ViewStub android:id="@id/wifi_conning" android:layout="@layout/wifi_conning_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/wifi_conn_error" android:layout="@layout/wifi_conn_error_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/wifi_conn_success" android:layout="@layout/wifi_conn_success_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

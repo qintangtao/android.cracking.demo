@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.zxing.client.android.ViewfinderView android:id="@id/viewfinder_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/status_view" android:background="@color/transparent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:src="@drawable/qr_torch_open" android:onClick="toggleTorch" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/title_bar" android:background="@color/qr_scan_menu_back" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height_no_tab">
+        <ImageView android:id="@id/left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_back_selector" android:onClick="back" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="扫描二维码" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

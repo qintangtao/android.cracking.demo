@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/search_fragment_bg" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/search_title" layout="@layout/layout_search_title" />
+    <ViewStub android:id="@id/search_loading" android:layout="@layout/common_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_title" />
+    <ViewStub android:id="@id/search_recommendation_vs" android:background="@color/search_fragment_bg" android:layout="@layout/layout_search_recommendation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/search_title" />
+    <ViewStub android:id="@id/search_suggestion" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout="@layout/search_dialog_suggestion_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/search_title" />
+    <ViewStub android:id="@id/search_result" android:layout="@layout/search_dialog_result_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_title" />
+</RelativeLayout>

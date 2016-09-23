@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/music_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout01" android:background="@drawable/list_item_click" android:layout_width="fill_parent" android:layout_height="74.0dip">
+        <FrameLayout android:id="@id/right_layout" android:layout_width="74.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center" android:background="@drawable/item_notcheck" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <com.market2345.lm.view.LMStatusView android:textColor="#ffababab" android:gravity="center" android:layout_gravity="center" android:id="@id/set_ring" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+            <com.market2345.lm.view.LMCheckBox android:layout_gravity="center" android:id="@id/check" android:background="@drawable/item_notcheck" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        </FrameLayout>
+        <ImageView android:id="@id/sperate" android:background="@drawable/music_item_seprate" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_toLeftOf="@id/right_layout" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/play_stop" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/app_icon_bg" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toLeftOf="@id/sperate" android:layout_toRightOf="@id/play_stop" android:layout_centerVertical="true">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:ellipsize="middle" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textColor="@color/poxian3" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:maxLength="13" android:layout_below="@id/name" />
+            <TextView android:textColor="@color/poxian3" android:id="@id/devide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="5.0dip" android:text="|" android:singleLine="true" android:maxLength="13" android:layout_toRightOf="@id/duration" android:layout_below="@id/name" />
+            <TextView android:textColor="@color/poxian3" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="5.0dip" android:singleLine="true" android:maxLength="13" android:layout_toRightOf="@id/devide" android:layout_below="@id/name" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

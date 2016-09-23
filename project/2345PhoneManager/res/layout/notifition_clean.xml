@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:padding="3.0dip" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginRight="3.0dip">
+        <ImageView android:id="@id/iv_update_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" android:contentDescription="@null" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="17.0dip" android:id="@id/tv_clean_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/clean_find_size" android:layout_alignParentTop="true" />
+        <TextView android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清理可加速运行" android:layout_below="@id/tv_clean_size" />
+    </RelativeLayout>
+    <ImageView android:gravity="center_horizontal" android:id="@id/iv_clean" android:clickable="true" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/cleannotifiselector" android:contentDescription="@null" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/all_comments"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/detail_tab_bg" android:layout_width="fill_parent" android:layout_height="@dimen/default_fivedp" />
+    <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_10dp">
+        <RadioButton android:textSize="14.0dip" android:textColor="@color/app_detail_indicator_textcolor_selector" android:gravity="center" android:id="@id/all_comments" android:paddingLeft="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:checked="true" android:button="@null" android:layout_weight="1.0" />
+        <View android:layout_gravity="center" android:background="@color/detail_comment_indicator" android:layout_width="@dimen/default_0.5dp" android:layout_height="@dimen/default_20dp" />
+        <RadioButton android:textSize="14.0dip" android:textColor="@color/app_detail_indicator_textcolor_selector" android:gravity="center" android:id="@id/positive_comments" android:paddingLeft="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:button="@null" android:layout_weight="1.0" />
+        <View android:layout_gravity="center" android:background="@color/detail_comment_indicator" android:layout_width="@dimen/default_0.5dp" android:layout_height="@dimen/default_20dp" />
+        <RadioButton android:textSize="14.0dip" android:textColor="@color/app_detail_indicator_textcolor_selector" android:gravity="center" android:id="@id/neutral_comments" android:paddingLeft="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:button="@null" android:layout_weight="1.0" />
+        <View android:layout_gravity="center" android:background="@color/detail_comment_indicator" android:layout_width="@dimen/default_0.5dp" android:layout_height="@dimen/default_20dp" />
+        <RadioButton android:textSize="14.0dip" android:textColor="@color/app_detail_indicator_textcolor_selector" android:gravity="center" android:id="@id/negative_comments" android:paddingLeft="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:button="@null" android:layout_weight="1.0" />
+    </RadioGroup>
+    <View android:background="@color/detail_comment_indicator" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/default_10dp" android:layout_marginBottom="1.0dip" />
+</LinearLayout>

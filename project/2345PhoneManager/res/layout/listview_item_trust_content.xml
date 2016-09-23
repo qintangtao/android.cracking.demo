@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_content" android:background="@drawable/applist_item_background" android:padding="5.0dip" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_app_icon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/other_file_icon_wdh" android:scaleType="fitXY" android:contentDescription="@null" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/special_item_first" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="135.0dip" android:text="微信" android:singleLine="true" android:layout_weight="1.0" />
+    <Button android:textSize="14.0sp" android:textColor="@color/main_blue_new" android:gravity="center" android:id="@id/tv_move" android:background="@drawable/btn_background_trust_move" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="移除" android:layout_centerVertical="true" />
+</LinearLayout>

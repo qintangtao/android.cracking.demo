@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/default_blank" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:paddingBottom="5.0dip" android:visibility="visible" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:splitMotionEvents="false" style="@style/style_listview" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/qr_result_vcard_title" android:id="@id/empty_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_user_apps" android:drawableTop="@drawable/installed_empty" android:drawablePadding="17.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

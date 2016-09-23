@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="raw" name="fast_keystore">res/raw/fast_keystore</item>
+    <item type="raw" name="fast_realm_properties">res/raw/fast_realm_properties</item>
+    <item type="raw" name="fast_webdefault">res/raw/fast_webdefault</item>
+</resources>

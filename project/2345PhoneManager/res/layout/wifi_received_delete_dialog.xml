@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dialog_title_text" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip">
+        <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_received_delete_all" android:layout_below="@id/content" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:gravity="left" android:id="@id/checkinfo_linearlayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <CheckBox android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center_vertical" android:id="@id/wifi_delete_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/mobile_clear_btn_check" />
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/wifi_received_delete_local" android:layout_toRightOf="@id/wifi_delete_file" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/dialog_buttom_both_btn" />
+</LinearLayout>

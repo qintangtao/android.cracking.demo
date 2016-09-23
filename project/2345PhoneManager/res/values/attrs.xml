@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="centered" format="boolean" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="fillColor" format="color" />
+    <attr name="pageColor" format="color" />
+    <attr name="radius" format="dimension" />
+    <attr name="snap" format="boolean" />
+    <attr name="strokeColor" format="color" />
+    <attr name="circle_progress" format="integer" />
+    <attr name="circle_max" format="integer" />
+    <attr name="circle_unfinished_color" format="color" />
+    <attr name="circle_finished_color" format="color" />
+    <attr name="circle_text_size" format="dimension" />
+    <attr name="circle_text_color" format="color" />
+    <attr name="circle_prefix_text" format="string" />
+    <attr name="circle_suffix_text" format="string" />
+    <attr name="unfininsh_color" format="color" />
+    <attr name="finish_color" format="color" />
+    <attr name="wave_color" format="color" />
+    <attr name="clean_progress" format="integer" />
+    <attr name="layout_row" format="integer" />
+    <attr name="layout_rowSpan" format="integer" min="1" />
+    <attr name="layout_rowWeight" format="float" />
+    <attr name="layout_column" format="integer" />
+    <attr name="layout_columnSpan" format="integer" min="1" />
+    <attr name="layout_columnWeight" format="float" />
+    <attr name="layout_gravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="pstsUnderlineColor" format="color" />
+    <attr name="pstsIndicatorColor" format="color" />
+    <attr name="pstsDividerColor" format="color" />
+    <attr name="pstsSelectedTextColor" format="color" />
+    <attr name="pstsIndicatorHeight" format="dimension" />
+    <attr name="pstsNormalTextColor" format="color" />
+    <attr name="pstsUnderlineHeight" format="dimension" />
+    <attr name="pstsDividerPadding" format="dimension" />
+    <attr name="pstsTabPaddingLeftRight" format="dimension" />
+    <attr name="pstsScrollOffset" format="dimension" />
+    <attr name="pstsTabBackground" format="reference" />
+    <attr name="pstsShouldExpand" format="boolean" />
+    <attr name="pstsTextAllCaps" format="boolean" />
+    <attr name="ptrRefreshableViewBackground" format="reference|color" />
+    <attr name="ptrHeaderBackground" format="reference|color" />
+    <attr name="ptrHeaderTextColor" format="reference|color" />
+    <attr name="ptrHeaderSubTextColor" format="reference|color" />
+    <attr name="ptrMode">
+        <flag name="both" value="0x00000003" />
+        <flag name="disabled" value="0x00000000" />
+        <flag name="manualOnly" value="0x00000004" />
+        <flag name="pullDownFromTop" value="0x00000001" />
+        <flag name="pullFromEnd" value="0x00000002" />
+        <flag name="pullFromStart" value="0x00000001" />
+        <flag name="pullUpFromBottom" value="0x00000002" />
+    </attr>
+    <attr name="ptrShowIndicator" format="reference|boolean" />
+    <attr name="ptrDrawable" format="reference" />
+    <attr name="ptrDrawableStart" format="reference" />
+    <attr name="ptrDrawableEnd" format="reference" />
+    <attr name="ptrOverScroll" format="reference|boolean" />
+    <attr name="ptrHeaderTextAppearance" format="reference" />
+    <attr name="ptrSubHeaderTextAppearance" format="reference" />
+    <attr name="ptrAnimationStyle">
+        <flag name="flip" value="0x00000001" />
+        <flag name="rotate" value="0x00000000" />
+    </attr>
+    <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+    <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+    <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+    <attr name="ptrAdapterViewBackground" format="reference|color" />
+    <attr name="ptrDrawableTop" format="reference" />
+    <attr name="ptrDrawableBottom" format="reference" />
+    <attr name="blurRadius" format="integer" />
+    <attr name="downsampleFactor" format="integer" />
+    <attr name="overlayColor" format="color" />
+    <attr name="tickCount" format="integer" />
+    <attr name="tickHeight" format="dimension" />
+    <attr name="barWeight" format="dimension" />
+    <attr name="barColor" format="reference|color" />
+    <attr name="connectingLineWeight" format="dimension" />
+    <attr name="connectingLineColor" format="reference|color" />
+    <attr name="thumbRadius" format="dimension" />
+    <attr name="thumbImageNormal" format="reference" />
+    <attr name="thumbImagePressed" format="reference" />
+    <attr name="thumbColorNormal" format="reference|color" />
+    <attr name="thumbColorPressed" format="reference|color" />
+    <attr name="mode">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+    </attr>
+    <attr name="viewAbove" format="reference" />
+    <attr name="viewBehind" format="reference" />
+    <attr name="behindOffset" format="dimension" />
+    <attr name="behindWidth" format="dimension" />
+    <attr name="behindScrollScale" format="float" />
+    <attr name="touchModeAbove">
+        <enum name="fullscreen" value="1" />
+        <enum name="margin" value="0" />
+    </attr>
+    <attr name="touchModeBehind">
+        <enum name="fullscreen" value="1" />
+        <enum name="margin" value="0" />
+    </attr>
+    <attr name="shadowDrawable" format="reference" />
+    <attr name="shadowWidth" format="dimension" />
+    <attr name="fadeEnabled" format="boolean" />
+    <attr name="fadeDegree" format="float" />
+    <attr name="selectorEnabled" format="boolean" />
+    <attr name="selectorDrawable" format="reference" />
+    <attr name="support_orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="support_rowCount" format="integer" />
+    <attr name="columnCount" format="integer" />
+    <attr name="useDefaultMargins" format="boolean" />
+    <attr name="alignmentMode">
+        <enum name="alignBounds" value="0" />
+        <enum name="alignMargins" value="1" />
+    </attr>
+    <attr name="rowOrderPreserved" format="boolean" />
+    <attr name="columnOrderPreserved" format="boolean" />
+    <attr name="waveViewStyle" format="reference" />
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    <attr name="vpiIconPageIndicatorStyle" format="reference" />
+    <attr name="vpiLinePageIndicatorStyle" format="reference" />
+    <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+    <attr name="vpiTabPageIndicatorStyle" format="reference" />
+    <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    <attr name="above_wave_color" format="color" />
+    <attr name="blow_wave_color" format="color" />
+    <attr name="progress" format="integer" />
+    <attr name="wave_length">
+        <enum name="large" value="1" />
+        <enum name="little" value="3" />
+        <enum name="middle" value="2" />
+    </attr>
+    <attr name="wave_height">
+        <enum name="large" value="1" />
+        <enum name="little" value="3" />
+        <enum name="middle" value="2" />
+    </attr>
+    <attr name="wave_hz">
+        <enum name="fast" value="1" />
+        <enum name="normal" value="2" />
+        <enum name="slow" value="3" />
+    </attr>
+    <attr name="isDropDownStyle" format="boolean" />
+    <attr name="isOnBottomStyle" format="boolean" />
+    <attr name="isAutoLoadOnBottom" format="boolean" />
+</resources>

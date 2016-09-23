@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/gridview_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:ellipsize="end" android:gravity="center" android:id="@id/tv_download" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/app_update_unignore_selector" android:singleLine="true" android:maxLength="30" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/rl_app_icon" android:paddingLeft="10.0dip" android:paddingTop="11.5dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/iv_app_icon" android:focusable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/app_icon_bg" android:scaleType="fitXY" android:contentDescription="@null" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/tv_download" android:layout_toRightOf="@id/rl_app_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/special_item_first" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微信" android:singleLine="true" />
+        <com.market2345.customview.download.IntroduceView1 android:orientation="horizontal" android:id="@id/ll_introduce_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/special_item_two" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_show" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_patch_down" android:singleLine="true" />
+            <com.market2345.customview.download.DeleteLineView android:textSize="10.0sp" android:textColor="@color/special_item_two" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_all_size" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2012MB" android:singleLine="true" />
+            <TextView android:textSize="10.0sp" android:textColor="#ff47ba5a" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_patch_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="2012MB" android:singleLine="true" />
+        </com.market2345.customview.download.IntroduceView1>
+        <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/special_item_two" android:gravity="center_vertical" android:id="@id/tv_current_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前：" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/special_item_two" android:gravity="center_vertical" android:id="@id/tv_new_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新版本：v1.1" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/dialog_title_text_color" android:gravity="center|left" android:id="@id/tv_dialog_title" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_uninstall_app" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/trash_blue" android:scaleType="centerInside" />
+    </LinearLayout>
+    <View android:id="@id/content" android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/ll_title" />
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:layout_below="@id/content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ram_usage" />
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/dialog_content_text_color" android:gravity="center|left" android:id="@id/tv_ram_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/main_blue_new" android:gravity="center|left" android:id="@id/tv_forced_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/forced_stop" android:drawableLeft="@drawable/limit_stop" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+    <include layout="@layout/dialog_buttom_both_btn" />
+</LinearLayout>

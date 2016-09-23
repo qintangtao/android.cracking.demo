@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="35.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.5dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/main_blue_new" android:layout_gravity="center_vertical" android:id="@id/tv_file_management" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="文件管理" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/poxian3" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text=">" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/qr_scan_menu_back" android:layout_gravity="center_vertical" android:id="@id/tv_file_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="相册" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_top_loading" android:background="@drawable/about_update_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:contentDescription="@null" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/expandtextcolor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/white" android:paddingTop="15.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="温馨提示" />
+    <TextView android:background="#ff99d9f6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/white" android:paddingLeft="14.0dip" android:paddingTop="18.0dip" android:paddingRight="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="欢迎使用2345王牌手机助手，本软件使用完全免费，在使用过程中会产生流量费，流量费用请咨询当地运营商；保护用户隐私是2345王牌手机助手的一项基础政策，在用户未授权的情况下，本软件不会收集用户的联系人、通讯记录、短信、位置、相册等基本信息，本软件在定位过程中可能会使用GPS服务。\n\n是否继续使用？" android:lineSpacingExtra="3.0dip" />
+    <LinearLayout android:background="@color/white" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textSize="14.0dip" android:textColor="@color/fenlei" android:id="@id/checkBox" android:background="@color/white" android:padding="7.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="不再提醒" style="@style/gpscheckboxtheme" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/white" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0dip" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@id/dialog_btn1" android:background="@drawable/dra_com_dia_btn_grey" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:text="退出" android:singleLine="true" android:maxLength="15" android:layout_weight="2.0" />
+        <Button android:textSize="16.0dip" android:textColor="@color/dialog_positive_color" android:layout_gravity="center_vertical" android:id="@id/dialog_btn0" android:background="@drawable/dialog_btn_background_selector" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:text="确定" android:singleLine="true" android:maxLength="15" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

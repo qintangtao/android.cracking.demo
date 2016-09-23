@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-hdpi-v4/installed_two.png
+SHA1-Digest: kazP1Dx7DBFJ1gZGZ2HnP5ISAN4=
+
+Name: AndroidManifest.xml
+SHA1-Digest: dBRvIr+mbZbgOn3+i3AYJctgymg=
+
+Name: res/drawable-hdpi-v4/installed_one.png
+SHA1-Digest: ZZvSBTAyECVUbfEVixaBqZdTe+o=
+
+Name: res/xml/device_admin_sample.xml
+SHA1-Digest: oGRP97pkp8CcA4i3HQLTfoCQ0Hg=
+
+Name: resources.arsc
+SHA1-Digest: FBxgPXHyu7F78sBxp6NXV/1wZDg=
+
+Name: res/drawable/installed_tips_animation.xml
+SHA1-Digest: xCUCiJn6m4OqT6p0nHaQgH9GgTA=
+
+Name: res/layout/activity_twinkle.xml
+SHA1-Digest: gDF++nDvDK256I663NUox23Rmm4=
+
+Name: classes.dex
+SHA1-Digest: YLA8OnmIQWDfen4A/RgkXvTnQV0=
+

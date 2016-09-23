@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/file_management_base_top_menu" />
+    <WebView android:id="@id/webview" android:background="@color/detail_tab_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="@color/list_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:background="@color/bottom_background" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textSize="12.0sp" android:textColor="@color/qr_result_vcard_text" android:ellipsize="end" android:id="@id/cb_checkbox" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:button="@null" android:text="参与用户体验改进计划" android:singleLine="true" android:drawableLeft="@drawable/app_detail_report_cb_selector" android:drawablePadding="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

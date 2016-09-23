@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_top" android:background="@color/main_blue_new" android:focusable="true" android:focusableInTouchMode="true" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/ib_top_back" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" android:layout_centerVertical="true" style="@style/style_wrap_fill" />
+        <TextView android:id="@id/tv_title" android:layout_marginLeft="1.0dip" android:text="留言板" android:drawablePadding="0.0dip" android:layout_toRightOf="@id/ib_top_back" style="@style/page_title_style" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="center|left|top" android:id="@id/fl_feedback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_top">
+        <com.market2345.customview.DropDownListView android:id="@id/lv_feedback" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+        <RelativeLayout android:gravity="center" android:id="@id/rl_loading_nodata" android:background="@color/default_blank" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/pb_loading" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/my_progress_style" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/feedback_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:textColor="@color/fenlei" android:gravity="center_horizontal" android:id="@id/tv_nodata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_load_error_retry" android:drawableTop="@drawable/feedback_refresh" android:drawablePadding="17.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

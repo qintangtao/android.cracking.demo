@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ff1a1a1a" android:ellipsize="end" android:id="@id/tv_temp_tag" android:background="@drawable/detail_tag_bg_selector" android:paddingLeft="@dimen/app_detail_tag_margin_top_right" android:paddingTop="5.0dip" android:paddingRight="@dimen/app_detail_tag_margin_top_right" android:paddingBottom="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_detail_tag_margin_top_right" android:singleLine="true" />
+</LinearLayout>

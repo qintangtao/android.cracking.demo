@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/grey_white_stoke" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/qr_vcard_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingLeft="@dimen/qr_code_margin" android:paddingTop="@dimen/qr_code_margin" android:paddingRight="@dimen/qr_code_margin" android:paddingBottom="@dimen/qr_code_margin" android:visibility="visible" android:drawingCacheQuality="high" android:persistentDrawingCache="all" android:alwaysDrawnWithCache="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="16.0dip" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/qr_show_code" android:background="@drawable/file_management_bottom_delete_bg_selector" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.5dip" android:text="@string/qr_vcard_code" android:singleLine="true" android:maxLength="15" android:layout_weight="1.0" />
+            <Button android:textSize="16.0dip" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/qr_add" android:background="@drawable/file_management_bottom_delete_bg_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="7.5dip" android:text="@string/qr_vcard_add" android:singleLine="true" android:maxLength="15" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/qr_vcard_indicator_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:id="@id/qr_vcard_code" android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

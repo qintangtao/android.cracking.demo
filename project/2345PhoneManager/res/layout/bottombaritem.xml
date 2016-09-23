@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/home_bottom_background" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/home_bottom_list_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/bottomtext" android:paddingTop="3.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="50.0dip" android:text="22" android:drawablePadding="0.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

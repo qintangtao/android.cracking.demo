@@ -1,0 +1,930 @@
+﻿<response>
+	<!-- 横幅广告 -->
+	<!-- 默认图片名：2345BrowserAd.jpg -->
+	<banners>
+		<banner bannerID="1" bannerImage="http://shouji.2345.com/browser/market/imgs/banner_browser_2345img.jpg" bannerTitle="2345手机浏览器 心感受 · 触体验" bannerType="1" bannerTypeTitle="应用" bannerTypeUrl="5"/>
+	</banners>
+	<!-- 应用主分类 -->
+	<types>
+		<type type_id="1" type_title="应用"/>
+		<type type_id="2" type_title="游戏"/>
+	</types>
+	<!-- 应用子分类 -->
+	<categorys>
+		<category category_id="1" category_image_url="http://shouji.2345.com/browser/market/icons/class/sjtx.png" category_title="通信聊天" describe="微信、手机QQ、新浪微博" type_id="1"/>
+		<category category_id="3" category_image_url="http://shouji.2345.com/browser/market/icons/class/yybf.png" category_title="音乐视频" describe="优酷、酷狗、快播" type_id="1"/>
+		<category category_id="4" category_image_url="http://shouji.2345.com/browser/market/icons/class/shsy.png" category_title="生活服务" describe="大众点评、百度地图、我查查" type_id="1"/>
+		<category category_id="5" category_image_url="http://shouji.2345.com/browser/market/icons/class/srf.png" category_title="输入法" describe="搜狗输入法、QQ输入法" type_id="1"/>
+		<category category_id="6" category_image_url="http://shouji.2345.com/browser/market/icons/class/ydzx.png" category_title="新闻阅读" describe="网易新闻、开卷有益" type_id="1"/>
+		<category category_id="7" category_image_url="http://shouji.2345.com/browser/market/icons/class/wlgw.png" category_title="购物支付" describe="淘宝、京东、美团" type_id="1"/>
+		<category category_id="8" category_image_url="http://shouji.2345.com/browser/market/icons/class/xtgj.png" category_title="系统工具" describe="腾讯手机管家、91桌面" type_id="1"/>
+		<category category_id="9" category_image_url="http://shouji.2345.com/browser/market/icons/class/sport.png" category_title="体育竞速" describe="都市赛车、极品飞车、NBA" type_id="2"/>
+		<category category_id="10" category_image_url="http://shouji.2345.com/browser/market/icons/class/slg.png" category_title="策略塔防" describe="植物大战僵尸、红色警戒" type_id="2"/>
+		<category category_id="11" category_image_url="http://shouji.2345.com/browser/market/icons/class/casual.png" category_title="休闲娱乐" describe="神庙逃亡2、跑跑卡丁车" type_id="2"/>
+		<category category_id="12" category_image_url="http://shouji.2345.com/browser/market/icons/class/puz1.png" category_title="益智棋牌" describe="地铁跑酷、史上最牛游戏2" type_id="2"/>
+		<category category_id="14" category_image_url="http://shouji.2345.com/browser/market/icons/class/act.png" category_title="角色冒险" describe="暴力摩托、拳皇97、狂野之血" type_id="2"/>
+		<category category_id="15" category_image_url="http://shouji.2345.com/browser/market/icons/class/sim.png" category_title="模拟经营" describe="QQ牧场、模拟人生、帝国时代3" type_id="2"/>
+		<category category_id="16" category_image_url="http://shouji.2345.com/browser/market/icons/class/stg1.png" category_title="动作射击" describe="时空猎人、穿越火线" type_id="2"/>
+	</categorys>
+	<!-- 所有应用 -->
+	<software>
+		<item>
+			<sid>40</sid>
+			<type_id>2</type_id>
+			<category_id>16</category_id>
+			<category_title>动作射击</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>时空猎人</title>
+			<version><![CDATA[5.0.075]]></version>
+			<packageName>com.yinhan.hunter.yh</packageName>
+			<versionCode>34</versionCode>
+			<totalDowns>24371</totalDowns>
+			<fileLength><![CDATA[46.2 MB]]></fileLength>
+			<publicDate><![CDATA[2013-08-20]]></publicDate>
+			<mark>8</mark>
+			<summary><![CDATA[《时空猎人》次世代格斗之王，完美再现超豪爽打击快感，无限连击、秒杀大招、全屏幕华丽魔法，配合智能手机的体感功能，带给你全所未有的畅快游戏体验。立即下载，开启指尖华丽格斗新领域！称霸格斗界，期待您的加入！
+
+【更新和优化】
+1.跨服积分赛更新后开启，只要您在积分榜上名列前茅，即有机会获得王者宝石、富豪宝石等限量宝石，更有大额充值卡等奖励您来拿！详情请查看论坛公告。
+
+2.勇者宝石开放合成、升级功能！搜集猎人宝石可合成勇者宝石！3颗勇者宝石可以升级为更高级的勇者宝石！
+
+3.VIP福利大放送！更新后，我们将开放21级、25级和30级VIP礼包！每个礼包均可开出富豪宝石一颗！
+
+4.更新后抽奖界面更加美观！抽奖格子数量由16个变为8个，抽奖更加方便快捷，奖品质量更高！
+
+5.无尽塔首杀任务重置，已经完成了任务的玩家可以再次领取该任务。任务调整为65级，75级和80级领取首杀任务。
+
+6.背包材料道具优化，更新后叠加增加到9999！
+
+7.无尽塔宝石大放送活动圆满结束，更新后闯塔送宝石任务下线。]]>
+            </summary>
+			<url>http://shouji.2345.com/browser/market/apps/shikonglieren.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/shikonglieren_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/shikonglieren_1.jpg,http://shouji.2345.com/browser/market/imgs/shikonglieren_2.jpg,http://shouji.2345.com/browser/market/imgs/shikonglieren_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>41</sid>
+			<type_id>2</type_id>
+			<category_id>12</category_id>
+			<category_title>益智棋牌</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>地铁跑酷</title>
+			<version><![CDATA[1.13.0]]></version>
+			<packageName>com.kiloo.subwaysurf</packageName>
+			<versionCode>32</versionCode>
+			<totalDowns>43587</totalDowns>
+			<fileLength><![CDATA[26.26 MB]]></fileLength>
+			<publicDate><![CDATA[2012-11-30]]></publicDate>
+			<mark>9</mark>
+			<summary><![CDATA[《地铁跑酷 Subway Surfers》 是一款带有美式街头风格的跑酷游戏，游戏采用3D立体视角，在充满动感和色彩艳丽的画面中奔跑、跳跃、翻滚，每天都会即时刷新三项任务供玩家去挑战，同时还有丰富多彩的道具使用与升级，众多隐藏角色等待你来开启！躲避迎面而来的火车！帮助高级、技巧娴熟以及毫无经验的新玩家逃避性情乖戾的检查员及其斗牛犬的检查。 【游戏特色】- 与冷静稳健的队友一起打造火车!- 装饰火车并绘制生动有趣的高清图像!- 悬浮滑板冲浪!- 装饰已启动的 jetpack!- 闪电般快速猛击特技!- 挑战并帮助您的队友!加入 App Stores 最具胆识的追逐游戏!一种具有高清优化图像以缓解视觉疲劳的通用应用程序。【注意事项】- 如安装失败，请玩家卸载已安装的《地铁跑酷》后再次尝试安装；- 如果有玩家出现闪退现象，可能是缺少谷歌服务框架，下载地址：http://android.d.cn/software/17007.html]]></summary>
+			<url>http://shouji.2345.com/browser/market/apps/ditiepaoku.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/ditiepaoku_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/ditiepaoku_1.jpg,http://shouji.2345.com/browser/market/imgs/ditiepaoku_2.jpg,http://shouji.2345.com/browser/market/imgs/ditiepaoku_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>42</sid>
+			<type_id>2</type_id>
+			<category_id>11</category_id>
+			<category_title>休闲娱乐</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>跑跑卡丁车加强版</title>
+			<version>2.9.0</version>
+			<packageName>com.nexon.kartriderrushplus</packageName>
+			<versionCode>27</versionCode>
+			<totalDowns>34904</totalDowns>
+			<fileLength>38.79 MB</fileLength>
+			<publicDate>2012-08-21</publicDate>
+			<mark>8</mark>
+			<summary><![CDATA[跑跑卡丁车加强版（KartRider Rush+）是一款由韩国Nexon公司制作的非常卡通的赛车游戏大作，游戏设有多张赛道地图可供选择，同一张地图内支持4名选手同场比赛。游戏方式包括比赛和计时模式，同时还允许玩家选择道具或者是竞速模式。游戏中设有一个微交易系统，玩家想要新赛道或者是游戏道具等物品时，就需要通过该系统掏腰包付钱了。游戏中的阴影、树木、障碍物、坡道等都与PC版没有太大差别。游戏的界面操作等也与PC版相似，最让人惊讶的是赛车的操控性和反应度都十分灵敏。最受玩家关心的竞速漂移由于需要额外按下一个漂移键，使得操作上有一定的难度。对新手玩家而言，跑跑卡丁车会比其他手机赛车游戏更难以控制和把握。游戏目前分为两种模式：道具赛和竞速赛。1 道具赛中玩家们通过使用技能互相攻击来争夺最后的冠军。2 竞速赛中玩家通过漂移来增加氮气，然后全力加速冲过终点。注：小编Galaxy Nexus测试失败，小米成功运行，进入画面后，会有韩文弹框，将每一项都打勾之后就可以进入游戏。【关于数据包】游戏需要下载30M数据包。]]></summary>
+			<url>http://shouji.2345.com/browser/market/apps/paopaokdc.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/paopaokdc_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/paopaokdc_1.jpg,http://shouji.2345.com/browser/market/imgs/paopaokdc_2.jpg,http://shouji.2345.com/browser/market/imgs/paopaokdc_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>35</sid>
+			<type_id>2</type_id>
+			<category_id>12</category_id>
+			<category_title>益智棋牌</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>史上最牛游戏2</title>
+			<version>10.0</version>
+			<packageName>org.orangenose.games</packageName>
+			<versionCode>100</versionCode>
+			<totalDowns>38789</totalDowns>
+			<fileLength>23.41 MB</fileLength>
+			<publicDate>2013-07-04</publicDate>
+			<mark>10</mark>
+			<summary>《史上最牛游戏2 Hardest Game Ever 2》是一款极具挑战性的休闲游戏，你认为自己眼疾手快智商高？那就来试试吧，证明你自己不是笨蛋，你需要完成各种各样的小游戏，操作简单有趣又十分容易上瘾，掌握诀窍才能过关，游戏有24个具有挑战性的关卡，有趣搞笑的画面和音效。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/shishangzuiniu2.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/shishangzuiniu2_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/shishangzuiniu2_1.jpg,http://shouji.2345.com/browser/market/imgs/shishangzuiniu2_2.jpg,http://shouji.2345.com/browser/market/imgs/shishangzuiniu2_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>8</sid>
+			<type_id>1</type_id>
+			<category_id>3</category_id>
+			<category_title>音乐视频</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>优酷</title>
+			<version>3.3</version>
+			<packageName>com.youku.phone</packageName>
+			<versionCode>38</versionCode>
+			<totalDowns>23597</totalDowns>
+			<fileLength>11.44 MB</fileLength>
+			<publicDate>2013-07-25</publicDate>
+			<mark>9</mark>
+			<summary>优酷网专为android手机订制的视频娱乐客户端产品.界面美观简洁,操作便捷,符合android用户使用习惯.优酷客户端具有视频在线播放,全屏播放,视频缓存,快捷搜索,播放历史云同步,拍摄和上传视频等功能,为用户提供能了更流畅便捷的客户端视频播放体验。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/youku.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/youku_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/youku_1.jpg,http://shouji.2345.com/browser/market/imgs/youku_2.jpg,http://shouji.2345.com/browser/market/imgs/youku_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>18</sid>
+			<type_id>1</type_id>
+			<category_id>5</category_id>
+			<category_title>输入法</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>搜狗手机输入法</title>
+			<version>4.7.5</version>
+			<packageName>com.sohu.inputmethod.sogou</packageName>
+			<versionCode>205</versionCode>
+			<totalDowns>64190</totalDowns>
+			<fileLength>6.5 MB</fileLength>
+			<publicDate>2013-03-01</publicDate>
+			<mark>9</mark>
+			<summary>搜狗手机输入法与搜狗拼音输入法一脉相传，以用户体验为指导+技术创新，致力于为亿万手机用户提供手机端最智能、最易用的输入法产品。拥有10万大词库、算法智能、首选率高、响应速度快等优秀基础品质。同时，支持整句输入、英文候选、智能云输入、多媒体输入、二维码识别等众多特色功能；且兼容PC皮肤，电脑有多炫，手机就有多炫！享受输入，依然搜狗！</summary>
+			<url>http://shouji.2345.com/browser/market/apps/sogou_ime.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/sogou_ime_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/sogou_ime_1.jpg,http://shouji.2345.com/browser/market/imgs/sogou_ime_2.jpg,http://shouji.2345.com/browser/market/imgs/sogou_ime_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>36</sid>
+			<type_id>2</type_id>
+			<category_id>12</category_id>
+			<category_title>益智棋牌</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>保卫萝卜</title>
+			<version>1.1.1</version>
+			<packageName>com.carrot.carrotfantasy</packageName>
+			<versionCode>258</versionCode>
+			<totalDowns>375828</totalDowns>
+			<fileLength>47.48 MB</fileLength>
+			<publicDate>2013-08-05</publicDate>
+			<mark>9</mark>
+			<summary><![CDATA[《保卫萝卜-CarrotFantasy》是一款由开发商“凯罗天下”开发的超萌塔防小游戏，容易上手、老少皆宜，内置新手引导。游戏含有丰富的关卡和主题包，拥有各自风格特色的多种防御塔，有趣的音效设定和搞怪的怪物造型及名字大大地增加了游戏的趣味性。玩家还可以收集道具和怪物，完成更多的成就。]]></summary>
+			<url>http://shouji.2345.com/browser/market/apps/baoweiluobo.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/baoweiluobo_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/baoweiluobo_1.jpg,http://shouji.2345.com/browser/market/imgs/baoweiluobo_2.jpg,http://shouji.2345.com/browser/market/imgs/baoweiluobo_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>12</sid>
+			<type_id>2</type_id>
+			<category_id>11</category_id>
+			<category_title>休闲娱乐</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>神庙逃亡2</title>
+			<version>1.2.2</version>
+			<packageName>com.imangi.templerun2</packageName>
+			<versionCode>4500</versionCode>
+			<totalDowns>42701</totalDowns>
+			<fileLength>27.56 MB</fileLength>
+			<publicDate>2013-07-26</publicDate>
+			<mark>8</mark>
+			<summary>神庙逃亡续作神庙逃亡2强势首发登陆中国，领跑全球！神庙逃亡2是神庙逃亡的续集，带来了轰动全球的超凡反响！神庙逃亡拥有超过1亿7千万的下载，它重新定义了游戏这个词的含义。马上下载神庙逃亡2，获得更加令人惊喜的奔跑，跳跃，转弯，滑行体验！危险的悬崖，铁链，矿山和森林都是来自神庙偶像的诅咒！你能逃离多远呢？</summary>
+			<url>http://shouji.2345.com/browser/market/apps/templerun2.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/templerun2_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/templerun2_1.jpg,http://shouji.2345.com/browser/market/imgs/templerun2_2.jpg,http://shouji.2345.com/browser/market/imgs/templerun2_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>27</sid>
+			<type_id>1</type_id>
+			<category_id>7</category_id>
+			<category_title>购物支付</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>淘宝</title>
+			<version>3.7.0</version>
+			<packageName>com.taobao.taobao</packageName>
+			<versionCode>78</versionCode>
+			<totalDowns>25665</totalDowns>
+			<fileLength>12.37 MB</fileLength>
+			<publicDate>2013-08-02</publicDate>
+			<mark>9</mark>
+			<summary>淘宝安卓客户端依托淘宝网强大的自身优势，整合了淘宝、聚划算团购、天猫（淘宝商城）等重点市场，帮助千万用户实现随时随地快捷购物；重点功能应用有搜索、物流查询、充值彩票、聚划算、天猫、支付宝安全支付、收藏评价、我的淘宝、类目导航、购物车合并付款、比价、二维码等。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/taobao.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/taobao_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/taobao_1.jpg,http://shouji.2345.com/browser/market/imgs/taobao_2.jpg,http://shouji.2345.com/browser/market/imgs/taobao_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>40</sid>
+			<type_id>1</type_id>
+			<category_id>3</category_id>
+			<category_title>音乐视频</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>酷狗音乐</title>
+			<version>5.7.1</version>
+			<packageName>com.kugou.android</packageName>
+			<versionCode>5711</versionCode>
+			<totalDowns>38952</totalDowns>
+			<fileLength>5.79 MB</fileLength>
+			<publicDate>2013-08-12</publicDate>
+			<mark>9</mark>
+			<summary><![CDATA[全新震撼发布！高清全屏写真，完美视觉享受！迄今为止最强大，最多人使用的音乐软件！有强大的音乐搜索，高速下载，海量曲库，专业的解码技术，让您随时享受完美的音乐体验。
+
+[安卓版核心功能]
+1、海量网络曲库
+2、强大的音乐搜索引擎
+3、高清全屏写真自动匹配
+4、全面支持各种音频格式
+5、专业的均衡器
+6、自主研发逐字精准KRC歌词
+7、个性化自定义皮肤
+8、线控,桌面歌词,睡眠模式,甩歌方便实用
+
+【更新内容】
+1、新增自由设置定时音乐功能，更贴心的音乐闹钟与定时关闭功能，美妙的乐音伴你起床/入眠，酷狗音乐带给您每天好心情。
+2、简化登录与注册流程
+3、调整网络播放逻辑，更加快速流畅
+4、歌词页三行歌词模式显示优化
+5、其他界面细节改进]]></summary>
+			<url>http://shouji.2345.com/browser/market/apps/kugou.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/kugou_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/kugou_1.jpg,http://shouji.2345.com/browser/market/imgs/kugou_2.jpg,http://shouji.2345.com/browser/market/imgs/kugou_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>35</sid>
+			<type_id>2</type_id>
+			<category_id>12</category_id>
+			<category_title>益智棋牌</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>找你妹</title>
+			<version>3.0.1</version>
+			<packageName>org.funship.findsomething.channel_91</packageName>
+			<versionCode>10</versionCode>
+			<totalDowns>72614</totalDowns>
+			<fileLength>48.07 MB</fileLength>
+			<publicDate>2013-01-17</publicDate>
+			<mark>9</mark>
+			<summary><![CDATA[《找你妹 Find Something》是一款找物品的休闲小游戏。擦亮你的眼睛，纷繁的世界中有太多目标值的你去寻找! 游戏风格风趣幽默，美术风格独特，上手简单却充满刺激挑战，乐趣无穷。游戏结合经典找图系列游戏和RPG游戏元素，玩家在游戏中培养角色，完成任务，升级各类牛B技能。还能使用多种道具，在困难时刻助你克服困难，找到目标。游戏提供三大模式:故事冒险模式:八个不同的世界进行冒险，体验不同的幽默故事，完成不同任务，世界的尽头还有牛X的Boss等着你去挑战。还能升级角色，赢得各类奖励，“吊丝”也能变“高富帅”。无尽挑战模式:无尽的挑战，挑战自己极限，与全世界玩家一起比赛，分数将会列入全球排行榜中。记住，培养出越牛X的角色，你可能达到的成绩也会越牛X!。多人比赛模式:独乐乐不如众乐乐，与你的好友一起联机对战，看看谁才是真正找你妹达人。最多支持四人对战，还能给对手使用干扰道具，大家斗智斗勇，一拼高低]]></summary>
+			<url>http://shouji.2345.com/browser/market/apps/zhaonimei.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/zhaonimei_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/zhaonimei_1.jpg,http://shouji.2345.com/browser/market/imgs/zhaonimei_2.jpg,http://shouji.2345.com/browser/market/imgs/zhaonimei_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>37</sid>
+			<type_id>2</type_id>
+			<category_id>12</category_id>
+			<category_title>益智棋牌</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>我叫MT</title>
+			<version>2.5.1.1</version>
+			<packageName>com.locojoy.immt_a_chs.uc</packageName>
+			<versionCode>1611</versionCode>
+			<totalDowns>13807</totalDowns>
+			<fileLength>68.18 MB</fileLength>
+			<publicDate>2013-07-03</publicDate>
+			<mark>8</mark>
+			<summary><![CDATA[【基本介绍】
+《我叫MT Online》根据著名动漫作品《我叫MT》改编，游戏采用卡牌战斗的经典方式，还原了动漫中的人物角色性格和搞笑做派，同时把《魔兽世界》各大经典副本以独特的方式展现出来。无论你是否是魔兽玩家？是否AFK？都可以在这里和你的朋友在一起战斗，一起下副本，以一种崭新的方式重新体验艾泽拉斯的掌中世界！
+
+【游戏特色】
+★ 精美的游戏画面，完美还原《我叫MT》的各个多彩角色。
+★ 经典职业一个不少，组建出你自己的战斗团队。
+★ 数百种卡牌，丰富的收集系统，尽可能地满足MT迷们的收集欲望。
+★ 经典的副本再现，全自动的战斗模式。
+★ 与好友协力，共同组建强大的队伍。
+★ 丰富的卡牌进化和养成系统。
+★ 每天送大奖，更有机会获得“五星”卡牌。]]></summary>
+			<url>http://shouji.2345.com/browser/market/apps/wojiaomt.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/wojiaomt_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/wojiaomt_1.jpg,http://shouji.2345.com/browser/market/imgs/wojiaomt_2.jpg,http://shouji.2345.com/browser/market/imgs/wojiaomt_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>30</sid>
+			<type_id>2</type_id>
+			<category_id>11</category_id>
+			<category_title>休闲娱乐</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>捕鱼达人</title>
+			<version>1.8.10</version>
+			<packageName>org.cocos2dx.FishGame</packageName>
+			<versionCode>180</versionCode>
+			<totalDowns>25961</totalDowns>
+			<fileLength>37.26 MB</fileLength>
+			<publicDate>2013-07-17</publicDate>
+			<mark>8</mark>
+			<summary>捕鱼达人(英文Fishing Joy)是一款深海捕鱼游戏。玩家在游戏中用网可捕捉到多达15种鱼类, 从观赏鱼到大型鱼, 甚至包括鲨鱼!当你成功捕获时, 这些鱼同时也会化为数不尽的金币滚滚而来, 堆满你的船舱, 这将是一次新奇有趣的海洋探宝之旅!</summary>
+			<url>http://shouji.2345.com/browser/market/apps/FishingJoy.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/FishingJoy_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/FishingJoy_1.jpg,http://shouji.2345.com/browser/market/imgs/FishingJoy_2.jpg,http://shouji.2345.com/browser/market/imgs/FishingJoy_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>38</sid>
+			<type_id>1</type_id>
+			<category_id>1</category_id>
+			<category_title>通信聊天</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>QQ空间</title>
+			<version>3.6.8.760</version>
+			<packageName>com.qzone</packageName>
+			<versionCode>56</versionCode>
+			<totalDowns>5690</totalDowns>
+			<fileLength>8.19 MB</fileLength>
+			<publicDate>2013-08-09</publicDate>
+			<mark>10</mark>
+			<summary><![CDATA[【基本介绍】
+    QQ空间，分享生活，留住感动。 QQ空间(Qzone)是中国最大的社交网络，是QQ用户的移动家园。您可以用手机查看好友动态、与好友互动，上传照片、写说说、写日志、签到、送礼；更有丰富的在线游戏，用心为您创造快乐。 
+
+【软件功能】
+- 快速查看空间动态：支持好友、特别关心好友、认证空间动态分类查看，支持大图、小图、无图三种浏览阅读体验； 
+- 进行好友互动：可以随时评论好友内容，好友留言评论提供消息通知，支持设置特别关心好友，查看空间访客； 
+- 照片上传和分享：支持多图批量上传，并提供多款炫酷滤镜，拍照美化一步完成，随时随地与朋友分享美好瞬间； 
+- 写说说、写日志、签到，便捷记录精彩生活、点滴心情；  
+- 给好友送礼：提供好友生日提醒，还能赠送语音礼物，将你的声音送到他/她身边； 
+- 玩转情侣空间、农场、牧场、好友买卖、抢车位，支持农场和牧场的收获提醒，还能一键收菜，随时收获快乐； 
+- 享受更多贴心功能：支持设置空间、相册权限，保护自己的空间隐私。]]></summary>
+			<url>http://shouji.2345.com/browser/market/apps/qzone.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/qzone_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/qzone_1.jpg,http://shouji.2345.com/browser/market/imgs/qzone_2.jpg,http://shouji.2345.com/browser/market/imgs/qzone_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>33</sid>
+			<type_id>1</type_id>
+			<category_id>3</category_id>
+			<category_title>音乐视频</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>暴风影音</title>
+			<version>3.2.75</version>
+			<packageName>com.storm.smart</packageName>
+			<versionCode>75</versionCode>
+			<totalDowns>40800</totalDowns>
+			<fileLength>7.87 MB</fileLength>
+			<publicDate>2013-07-08</publicDate>
+			<mark>8</mark>
+			<summary>手机暴风影音左眼版----手机也能左眼了！聚合全网影视资源，打造极致高清观影体验。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/baofeng.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/baofeng_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/baofeng_1.jpg,http://shouji.2345.com/browser/market/imgs/baofeng_2.jpg,http://shouji.2345.com/browser/market/imgs/baofeng_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>9</sid>
+			<type_id>1</type_id>
+			<category_id>4</category_id>
+			<category_title>生活服务</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>百度地图</title>
+			<version>5.3.1</version>
+			<packageName>com.baidu.BaiduMap</packageName>
+			<versionCode>431</versionCode>
+			<totalDowns>23975</totalDowns>
+			<fileLength>10.48 MB</fileLength>
+			<publicDate>2013-08-02</publicDate>
+			<mark>9</mark>
+			<summary>百度地图关注您的生活，为您呈现不一样的生活地图，团购优惠信息丰富实惠，周边生活数据更加翔实，为您开启智能生活！与此同时，我们仍一如既往地为您优化导航功能、定位功能、优化路线算法、改进实时路况等，努力提升您的出行体验！点击百度地图，开启智能生活。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/baidu_map.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/baidu_map_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/baidu_map_1.jpg,http://shouji.2345.com/browser/market/imgs/baidu_map_2.jpg,http://shouji.2345.com/browser/market/imgs/baidu_map_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>10</sid>
+			<type_id>1</type_id>
+			<category_id>8</category_id>
+			<category_title>系统工具</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>91桌面</title>
+			<version>3.8</version>
+			<packageName>com.nd.android.pandahome2</packageName>
+			<versionCode>3800</versionCode>
+			<totalDowns>818</totalDowns>
+			<fileLength>8.2 MB</fileLength>
+			<publicDate>2013-05-28</publicDate>
+			<mark>8</mark>
+			<summary>91桌面惊艳大改版！全新设计完美贴合Android4.0 UI风格，支持桌面主题应用及个性美化DIY，极致的操作体验，人性化的功能交互，简单好用，快速稳定，做您最贴心的手机管家！</summary>
+			<url>http://shouji.2345.com/browser/market/apps/91desktop.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/91desktop_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/91desktop_1.jpg,http://shouji.2345.com/browser/market/imgs/91desktop_2.jpg,http://shouji.2345.com/browser/market/imgs/91desktop_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>22</sid>
+			<type_id>2</type_id>
+			<category_id>12</category_id>
+			<category_title>益智棋牌</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>鳄鱼小顽皮爱洗澡</title>
+			<version>1.12.0</version>
+			<packageName>com.disney.chukong.WMW</packageName>
+			<versionCode>20</versionCode>
+			<totalDowns>42859</totalDowns>
+			<fileLength>48.99 MB</fileLength>
+			<publicDate>2013-07-05</publicDate>
+			<mark>9</mark>
+			<summary>鳄鱼小顽皮爱洗澡是一部基于物理原理的解谜游戏，它拥有动感图像，直观的控制及出色的音质效果。要想过关，您需要充分开动你的脑筋，另外还要小心藻类、有毒泥水，机关和陷阱。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/WheresMyWater.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/WheresMyWater_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/WheresMyWater_1.jpg,http://shouji.2345.com/browser/market/imgs/WheresMyWater_2.jpg,http://shouji.2345.com/browser/market/imgs/WheresMyWater_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>39</sid>
+			<type_id>1</type_id>
+			<category_id>8</category_id>
+			<category_title>系统工具</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>腾讯手机管家</title>
+			<version>4.1.1</version>
+			<packageName>com.tencent.qqpimsecure</packageName>
+			<versionCode>101</versionCode>
+			<totalDowns>111354</totalDowns>
+			<fileLength>6.91 MB</fileLength>
+			<publicDate>2013-07-02</publicDate>
+			<mark>9</mark>
+			<summary><![CDATA[腾讯手机管家(QQ手机管家)是一款永久免费的手机安全与管理软件，集一键体检、手机加速、智能省电、流量监控、骚扰拦截、手机令牌、手机防盗、病毒查杀及隐私保护等功能于一体，既是安全专家，更是贴心管家，360保护您的无线生活！]]></summary>
+			<url>http://shouji.2345.com/browser/market/apps/txshoujiguanjia.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/txshoujiguanjia_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/txshoujiguanjia_1.jpg,http://shouji.2345.com/browser/market/imgs/txshoujiguanjia_2.jpg,http://shouji.2345.com/browser/market/imgs/txshoujiguanjia_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>14</sid>
+			<type_id>1</type_id>
+			<category_id>4</category_id>
+			<category_title>生活服务</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>大众点评</title>
+			<version>5.8.1</version>
+			<packageName>com.dianping.v1</packageName>
+			<versionCode>581</versionCode>
+			<totalDowns>2153</totalDowns>
+			<fileLength>9.36 MB</fileLength>
+			<publicDate>2013-07-09</publicDate>
+			<mark>8</mark>
+			<summary>随时随地查找美食、休闲娱乐、酒店等各种商家；GPS定位自动搜索周边各类商户，省时省力；提供商户电话、地址地图、客观点评等全面信息；北京上海等五大城市优惠券免费下载，折扣不断；签到功能：记录足迹，分享体验。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/dianping.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/dianping_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/dianping_1.jpg,http://shouji.2345.com/browser/market/imgs/dianping_2.jpg,http://shouji.2345.com/browser/market/imgs/dianping_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>15</sid>
+			<type_id>1</type_id>
+			<category_id>4</category_id>
+			<category_title>生活服务</category_title>
+			<ishot>1</ishot>
+			<recommend>1</recommend>
+			<title>我查查</title>
+			<version>6.0</version>
+			<packageName>com.wochacha</packageName>
+			<versionCode>600</versionCode>
+			<totalDowns>16762</totalDowns>
+			<fileLength>6.9 MB</fileLength>
+			<publicDate>2013-07-25</publicDate>
+			<mark>7</mark>
+			<summary>比价购物，真假防伪，药品查询，图书比价，质检信息，快递跟踪，价格指数……这些功能现在统统可以用我查查一键实现！我查查是目前国内使用人数最多，数据最齐全的比价软件，我们的数据库覆盖了超市百货、图书音像、烟酒药品等国内任何带有标准条形码的商品，条码价格数量已经达到了千万级别，并且每日更新，力求提供消费者最新鲜的价格和商品信息。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/wochacha.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/wochacha_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/wochacha_1.jpg,http://shouji.2345.com/browser/market/imgs/wochacha_2.jpg,http://shouji.2345.com/browser/market/imgs/wochacha_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>26</sid>
+			<type_id>2</type_id>
+			<category_id>9</category_id>
+			<category_title>体育竞速</category_title>
+			<ishot>0</ishot>
+			<recommend>0</recommend>
+			<title>都市赛车5</title>
+			<version>3.3.7</version>
+			<packageName>com.gameloft.android.ANMP.GloftAsphalt5.asphalt5</packageName>
+			<versionCode>337</versionCode>
+			<totalDowns>17095</totalDowns>
+			<fileLength>12.97 MB</fileLength>
+			<publicDate>2012-08-06</publicDate>
+			<mark>7</mark>
+			<summary>游戏中玩家可以驾驶世界上最快 30多种梦幻跑车，包括法拉利、兰博基尼、奥迪以及杜卡迪；HD级高质量画面能够完美的展示出雪地、泥地以及砂石路等12种赛道的特效；玩家可在8种不同赛事中进行挑战，包括甩尾赛、警察追击、时间赛、对决模式、淘汰赛以及逃脱模式；多人游戏模式支持最多6位玩家通过蓝牙及网络进行对战；游戏中可播放Android手机内的歌曲。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/Asphalt5.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/Asphalt5_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/Asphalt5_1.jpg,http://shouji.2345.com/browser/market/imgs/Asphalt5_2.jpg,http://shouji.2345.com/browser/market/imgs/Asphalt5_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>5</sid>
+			<type_id>1</type_id>
+			<category_id>2</category_id>
+			<category_title>浏览器</category_title>
+			<ishot>1</ishot>
+			<recommend>1</recommend>
+			<title>2345手机浏览器</title>
+			<version>5.1.1</version>
+			<packageName>com.browser2345</packageName>
+			<versionCode>53</versionCode>
+			<totalDowns>22306</totalDowns>
+			<fileLength>5.39 MB</fileLength>
+			<publicDate>2013-07-18</publicDate>
+			<mark>10</mark>
+			<summary>2345手机浏览器，可个性化配置阅读内容，并内置超过500条网址数据，对热门网站进行精选与分类，界面清爽舒适，方便触屏手机用户的使用。收藏夹同步网址不丢失，新闻时时看，美图看不完。</summary>
+			<url>http://shouji.2345.com/2345Browser.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/2345Browser_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/2345Browser_1.jpg,http://shouji.2345.com/browser/market/imgs/2345Browser_2.jpg,http://shouji.2345.com/browser/market/imgs/2345Browser_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>23</sid>
+			<type_id>1</type_id>
+			<category_id>6</category_id>
+			<category_title>新闻阅读</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>网易新闻</title>
+			<version>3.6.0</version>
+			<packageName>com.netease.newsreader.activity</packageName>
+			<versionCode>273</versionCode>
+			<totalDowns>780</totalDowns>
+			<fileLength>6.11 MB</fileLength>
+			<publicDate>2013-08-05</publicDate>
+			<mark>9</mark>
+			<summary>网易新闻客户端是网易倾全力打造的精品应用，已然成为国内第一的新闻客户端，因体验最流畅、新闻最快速、评论最犀利而备受推崇。请相信有态度网友的一致选择！</summary>
+			<url>http://shouji.2345.com/browser/market/apps/163news.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/163news_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/163news_1.jpg,http://shouji.2345.com/browser/market/imgs/163news_2.jpg,http://shouji.2345.com/browser/market/imgs/163news_3.jpg</screenslot>
+		</item>
+	    <item>
+			<sid>4</sid>
+			<type_id>2</type_id>
+			<category_id>11</category_id>
+			<category_title>休闲娱乐</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>水果忍者中文版</title>
+			<version>1.8.6.2</version>
+			<packageName>com.halfbrick.fruitninja</packageName>
+			<versionCode>1809</versionCode>
+			<totalDowns>32605</totalDowns>
+			<fileLength>31.27 MB</fileLength>
+			<publicDate>2013-08-02</publicDate>
+			<mark>8</mark>
+			<summary>水果忍者是一款刺激好玩、容易上手却教人难以离手的动作游戏，玩家将会在游戏中扮演一个讨厌水果的忍者，用锋利的刀切开各种水果。只需将手指扫过屏幕，就能像忍者战士般痛快地切开溅出美味果汁的水果。但注意不要触碰混杂其中的炸弹，一旦引发爆炸，你的刺激冒险便会瞬间终结！</summary>
+			<url>http://shouji.2345.com/browser/market/apps/FruitNinja.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/FruitNinja_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/FruitNinja_1.jpg,http://shouji.2345.com/browser/market/imgs/FruitNinja_2.jpg,http://shouji.2345.com/browser/market/imgs/FruitNinja_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>29</sid>
+			<type_id>1</type_id>
+			<category_id>7</category_id>
+			<category_title>购物支付</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>支付宝钱包</title>
+			<version>7.1.2.0720</version>
+			<packageName>com.eg.android.AlipayGphone</packageName>
+			<versionCode>39</versionCode>
+			<totalDowns>3790</totalDowns>
+			<fileLength>7.21 MB</fileLength>
+			<publicDate>2013-07-22</publicDate>
+			<mark>9</mark>
+			<summary>支付宝钱包是国内领先的移动支付平台，支持多款精品应用安全登录，更有余额宝理财神器，是数千万人信赖的贴身资产管家。用支付宝钱包，还信用卡、转账、付款、收款、充值、缴费、卡券管理，轻松搞定。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/alipay.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/alipay_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/alipay_1.jpg,http://shouji.2345.com/browser/market/imgs/alipay_2.jpg,http://shouji.2345.com/browser/market/imgs/alipay_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>2</sid>
+			<type_id>1</type_id>
+			<category_id>1</category_id>
+			<category_title>通信聊天</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>微信</title>
+			<version>5.0</version>
+			<packageName>com.tencent.mm</packageName>
+			<versionCode>350</versionCode>
+			<totalDowns>2954426</totalDowns>
+			<fileLength>22.4 MB</fileLength>
+			<publicDate>2013-08-11</publicDate>
+			<mark>8</mark>
+			<summary>微信是一款手机通信软件，支持通过手机网络发送语音短信、视频、图片和文字，可以单聊及群聊，还能根据地理位置找到附近的人，带给朋友们全新的移动沟通体验 。支持ios、Android、塞班等多种平台手机。 微信，是一个生活方式！</summary>
+			<url>http://shouji.2345.com/browser/market/apps/weixin.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/weixin_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/weixin_1.jpg,http://shouji.2345.com/browser/market/imgs/weixin_2.jpg,http://shouji.2345.com/browser/market/imgs/weixin_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>1</sid>
+			<type_id>1</type_id>
+			<category_id>1</category_id>
+			<category_title>通信聊天</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>手机QQ2013</title>
+			<version>4.2.1</version>
+			<packageName>com.tencent.mobileqq</packageName>
+			<versionCode>66</versionCode>
+			<totalDowns>812616</totalDowns>
+			<fileLength>24.12 MB</fileLength>
+			<publicDate>2013-08-05</publicDate>
+			<mark>10</mark>
+			<summary>手机QQ是由腾讯公司打造的移动互联网应用，提供免费的多媒体沟通服务，方便用户在移动设备上通过语音、图片、视频等方式轻松交流。手机QQ，只想与你更接近。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/mobileQQ.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/mobileQQ_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/mobileQQ_1.jpg,http://shouji.2345.com/browser/market/imgs/mobileQQ_2.jpg,http://shouji.2345.com/browser/market/imgs/mobileQQ_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>3</sid>
+			<type_id>1</type_id>
+			<category_id>1</category_id>
+			<category_title>通信聊天</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>新浪微博</title>
+			<version>3.6.0</version>
+			<packageName>com.sina.weibo</packageName>
+			<versionCode>554</versionCode>
+			<totalDowns>12974</totalDowns>
+			<fileLength>13.6 MB</fileLength>
+			<publicDate>2013-07-22</publicDate>
+			<mark>8</mark>
+			<summary>基于Android平台的新浪微博手机客户端，集阅读、发布、评论、转发、私信、关注等主要功能为一体，本地相机即拍即传，随时随地同朋友分享身边的新鲜事。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/sina_weibo.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/sina_weibo_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/sina_weibo_1.jpg,http://shouji.2345.com/browser/market/imgs/sina_weibo_2.jpg,http://shouji.2345.com/browser/market/imgs/sina_weibo_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>7</sid>
+			<type_id>2</type_id>
+			<category_id>12</category_id>
+			<category_title>益智棋牌</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>割绳子:实验室篇</title>
+			<version>2.3.1</version>
+			<packageName>com.zeptolab.ctrexperiments.google.paid</packageName>
+			<versionCode>1345294436</versionCode>
+			<totalDowns>9379</totalDowns>
+			<fileLength>20.62 MB</fileLength>
+			<publicDate>2013-05-07</publicDate>
+			<mark>9</mark>
+			<summary>作为新一作的《Cut the Rope:Experiments》，本作并未在画面上进行大幅的改动，依然延续了色彩多样、画风可爱的2D画面样式。而主角自然还是那只喜欢吃糖果喜欢到不行的小怪物Om Nom。不过《Cut the Rope:Experiments》也并不是完全在画面上没有变化，新的关卡场景和新的游戏要素的增加，使得游戏在不少方面都出现了令人觉得比较新鲜的改变。同时《Cut the Rope:Experiments》也增加了新的游戏配乐，并且旧的配乐也进行了一些新的编曲改动，使得游戏的配乐保持了令人轻松越快的风格，也增加了一些新鲜感。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/CutTheRope_Experiments.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/CutTheRope_Experiments_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/CutTheRope_Experiments_1.jpg,http://shouji.2345.com/browser/market/imgs/CutTheRope_Experiments_2.jpg,http://shouji.2345.com/browser/market/imgs/CutTheRope_Experiments_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>25</sid>
+			<type_id>1</type_id>
+			<category_id>6</category_id>
+			<category_title>新闻阅读</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>开卷有益</title>
+			<version>4.96</version>
+			<packageName>com.kingreader.framework</packageName>
+			<versionCode>4960</versionCode>
+			<totalDowns>2065</totalDowns>
+			<fileLength>4.77 MB</fileLength>
+			<publicDate>2013-07-10</publicDate>
+			<mark>9</mark>
+			<summary>开卷有益是Android平台最受欢迎、功能最全、界面最清爽的阅读软件，支持TXT、EPUB、UMD、CHM、KEB、HTM、HTML、XTHM、BMP、JPG、PNG、GIF、CBZ等格式。开卷书城和搜书引擎，最新最潮小说一网打尽。自有迅读技术，秒杀百兆文档，智能排版，字体外挂，智能提取重排，以及100余项高级设置，满足所有用户的需求。开卷新版本清新界面风格，引领阅读界面新风潮。多年专注研发，千万用户口碑见证。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/KingReader.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/KingReader_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/KingReader_1.jpg,http://shouji.2345.com/browser/market/imgs/KingReader_2.jpg,http://shouji.2345.com/browser/market/imgs/KingReader_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>24</sid>
+			<type_id>1</type_id>
+			<category_id>6</category_id>
+			<category_title>新闻阅读</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>iReader读书</title>
+			<version>2.3.1</version>
+			<packageName>com.chaozh.iReaderFree</packageName>
+			<versionCode>55</versionCode>
+			<totalDowns>4785</totalDowns>
+			<fileLength>3.06 MB</fileLength>
+			<publicDate>2013-07-02</publicDate>
+			<mark>9</mark>
+			<summary>iReader读书是一款专注于手机阅读领域的经典阅读软件。支持EBK3/TXT/UMD/EPUB/CHM/PDF全主流阅读格式。功能强大，个性时尚，界面简约，与各大出版社进行深度战略合作，拥有广阔图书资源。 从软件发布伊始，团队与用户一路相伴，不断的调整及淬炼，使iReader读书逐渐蜕变成拥有绝佳用户口碑的阅读神器，令用户在阅读体验中不断获得至尊级殿堂服务。今后我们将继续致力于缔造正版阅读享受，撷精华退糟粕，竭诚提供贴心服务，为用户点亮高品位文化生活。爱读书，读好书，就用iReader！</summary>
+			<url>http://shouji.2345.com/browser/market/apps/iReader.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/iReader_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/iReader_1.jpg,http://shouji.2345.com/browser/market/imgs/iReader_2.jpg,http://shouji.2345.com/browser/market/imgs/iReader_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>21</sid>
+			<type_id>2</type_id>
+			<category_id>10</category_id>
+			<category_title>策略塔防</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>植物大战僵尸</title>
+			<version>1.2</version>
+			<packageName>com.popcap.pvz</packageName>
+			<versionCode>21230</versionCode>
+			<totalDowns>28766</totalDowns>
+			<fileLength>74.06 MB</fileLength>
+			<publicDate>2012-05-19</publicDate>
+			<mark>10</mark>
+			<summary>可怕的僵尸即将入侵你的家庭，你唯一的防御方式就是您栽种的植物。武装您的49种植物，切换他们不同的功能，诸如樱桃炸弹或强悍的食人花，更加快速有效的将僵尸阻挡在入侵的道路上。不同的敌人，不同的玩法构成五种不同的游戏模式，加之夕阳、浓雾以及泳池之类的障碍增加了其挑战性 奇特的游戏乐趣永无止境。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/PlantsVSzombies.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/PlantsVSzombies_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/PlantsVSzombies_1.jpg,http://shouji.2345.com/browser/market/imgs/PlantsVSzombies_2.jpg,http://shouji.2345.com/browser/market/imgs/PlantsVSzombies_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>13</sid>
+			<type_id>2</type_id>
+			<category_id>11</category_id>
+			<category_title>休闲娱乐</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>愤怒的小鸟:太空版 无广告版</title>
+			<version>1.5.2</version>
+			<packageName>com.rovio.angrybirdsspace.premium</packageName>
+			<versionCode>1520</versionCode>
+			<totalDowns>102743</totalDowns>
+			<fileLength>46.07 MB</fileLength>
+			<publicDate>2012-11-07</publicDate>
+			<mark>8</mark>
+			<summary>愤怒的小鸟太空版(Angry Birds Space)讲述的是小鸟们是进入到太空中了！他们遇到了一只外星鸟。他喵的，外星鸟竟然与机器人在抢鸟蛋，而且是黄金陨石蛋。看到外星鸟站上弹弓追击外星人之后，拥有丰富抢蛋经验的小鸟们马上追入太空，要一起抢回鸟蛋。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/AngryBirdsSpace.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/AngryBirdsSpace_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/AngryBirdsSpace_1.jpg,http://shouji.2345.com/browser/market/imgs/AngryBirdsSpace_2.jpg,http://shouji.2345.com/browser/market/imgs/AngryBirdsSpace_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>31</sid>
+			<type_id>1</type_id>
+			<category_id>7</category_id>
+			<category_title>购物支付</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>京东</title>
+			<version>2.4.0</version>
+			<packageName>com.jingdong.app.mall</packageName>
+			<versionCode>3102</versionCode>
+			<totalDowns>5608</totalDowns>
+			<fileLength>3.93 MB</fileLength>
+			<publicDate>2013-06-05</publicDate>
+			<mark>8</mark>
+			<summary>京东网上商城是中国最大的综合网购平台, 正品行货, 机打invoice, 售后上门取件, 省钱又放心。商品品类覆盖家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等12大类数万个品牌超百万种优质商品, 是网购用户首选。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/jd.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/jd_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/jd_1.jpg,http://shouji.2345.com/browser/market/imgs/jd_2.jpg,http://shouji.2345.com/browser/market/imgs/jd_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>16</sid>
+			<type_id>1</type_id>
+			<category_id>4</category_id>
+			<category_title>生活服务</category_title>
+			<ishot>1</ishot>
+			<recommend>1</recommend>
+			<title>布丁优惠券</title>
+			<version>3.4.6</version>
+			<packageName>cn.buding.coupon</packageName>
+			<versionCode>3406</versionCode>
+			<totalDowns>1235</totalDowns>
+			<fileLength>3.23 MB</fileLength>
+			<publicDate>2013-07-04</publicDate>
+			<mark>8</mark>
+			<summary>布丁优惠，手机上的折扣生活。布丁优惠券'直接出示、无需打印',全国精品连锁餐饮电子折扣券，一千万布丁用户真挚推荐。您只需奔往最近的美食餐厅，柜台出示手机优惠券图片，即可立即省钱享用美餐。简单致用、惠无纸境，再也不用到处搜刮纸质券了！</summary>
+			<url>http://shouji.2345.com/browser/market/apps/buding_coupon.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/buding_coupon_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/buding_coupon_1.jpg,http://shouji.2345.com/browser/market/imgs/buding_coupon_2.jpg,http://shouji.2345.com/browser/market/imgs/buding_coupon_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>28</sid>
+			<type_id>1</type_id>
+			<category_id>7</category_id>
+			<category_title>购物支付</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>美团</title>
+			<version>3.5.2</version>
+			<packageName>com.sankuai.meituan</packageName>
+			<versionCode>89</versionCode>
+			<totalDowns>1121</totalDowns>
+			<fileLength>3.01 MB</fileLength>
+			<publicDate>2013-03-27</publicDate>
+			<mark>9</mark>
+			<summary>美团团购，口碑最好、国内最火的团购必备软件，为您提供各城市美食、酒店、电影、旅游等团购优惠及电子兑换券信息，是美团网精心打造的手机客户端,简单顺畅的操作体验让手机用户随时随地享受便捷的团购服务,更有手机用户专享的秒杀活动等着您。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/meituan.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/meituan_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/meituan_1.jpg,http://shouji.2345.com/browser/market/imgs/meituan_2.jpg,http://shouji.2345.com/browser/market/imgs/meituan_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>20</sid>
+			<type_id>1</type_id>
+			<category_id>8</category_id>
+			<category_title>系统工具</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>酷玩汇</title>
+			<version>1.0.0</version>
+			<packageName>com.bodong.coolplay</packageName>
+			<versionCode>100</versionCode>
+			<totalDowns>559</totalDowns>
+			<fileLength>644 KB</fileLength>
+			<publicDate>2013-05-18</publicDate>
+			<mark>7</mark>
+			<summary>酷玩汇网罗时下最热最新游戏软件，精挑细选只推荐精品。独有的特色专区助你紧跟时代热点，更有专业评测攻略让你轻松玩转应用，所提供内容全部经过编辑人工验证，安全可靠，让你用着放心省心更舒心。软件客户端小，界面精美，功能齐全，让您享受超快速一站式的下载体验。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/kuwanhui.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/kuwanhui_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/kuwanhui_1.jpg,http://shouji.2345.com/browser/market/imgs/kuwanhui_2.jpg,http://shouji.2345.com/browser/market/imgs/kuwanhui_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>34</sid>
+			<type_id>1</type_id>
+			<category_id>3</category_id>
+			<category_title>音乐视频</category_title>
+			<ishot>1</ishot>
+			<recommend>0</recommend>
+			<title>喜马拉雅 不只能听歌</title>
+			<version>1.3.20</version>
+			<packageName>com.ximalaya.ting.android</packageName>
+			<versionCode>20</versionCode>
+			<totalDowns>2822</totalDowns>
+			<fileLength>4.11 MB</fileLength>
+			<publicDate>2013-07-30</publicDate>
+			<mark>8</mark>
+			<summary>喜马拉雅，不只能听歌！你可以，随时随地，听我想听;也可以，轻松创建个人电台，随时分享好声音。手机必备听软件！中国最大声音库，想听啥都有！超方便！支持wifi批量下载到手机听;全免费！听“下载的”不耗流量不花钱;百万白领盛赞，上下班路上必备听神器;高富帅白富美热捧，屌丝2013最想要的应用;随手发声音微博，随时和播主互动;上线即获苹果官方力荐，娱乐类排名第一。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/ximalaya.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/ximalaya_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/ximalaya_1.jpg,http://shouji.2345.com/browser/market/imgs/ximalaya_2.jpg,http://shouji.2345.com/browser/market/imgs/ximalaya_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>19</sid>
+			<type_id>1</type_id>
+			<category_id>4</category_id>
+			<category_title>生活服务</category_title>
+			<ishot>1</ishot>
+			<recommend>1</recommend>
+			<title>彩票365</title>
+			<version>4.0.6</version>
+			<packageName>com.vodone.caibo</packageName>
+			<versionCode>48</versionCode>
+			<totalDowns>700</totalDowns>
+			<fileLength>10.3 MB</fileLength>
+			<publicDate>2013-06-01</publicDate>
+			<mark>7</mark>
+			<summary>1、比分直播：进球提醒比中央电视台快；2、赛事直播：领先实现高速流畅体育视频直播；3、开奖提醒：与国家福利和体育彩票开奖中心同步；4、攻略预测：知名媒体专家心水推荐；5、微博互动：全国最大的彩民微博社区；6、购买彩票：极致便捷的手机购彩体验。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/caipiao365.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/caipiao365_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/caipiao365_1.jpg,http://shouji.2345.com/browser/market/imgs/caipiao365_2.jpg,http://shouji.2345.com/browser/market/imgs/caipiao365_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>32</sid>
+			<type_id>1</type_id>
+			<category_id>4</category_id>
+			<category_title>生活服务</category_title>
+			<ishot>1</ishot>
+			<recommend>1</recommend>
+			<title>挖财记账理财</title>
+			<version>7.0.7.1</version>
+			<packageName>com.wacai365</packageName>
+			<versionCode>117</versionCode>
+			<totalDowns>1276</totalDowns>
+			<fileLength>2.97 MB</fileLength>
+			<publicDate>2013-04-01</publicDate>
+			<mark>7</mark>
+			<summary>史上平台最丰富、支持机型最多、体积小巧、综合表现最优秀的个人记账应用。轻松记账，就用挖财。国内唯一的全平台记账理财软件，拥有iPhone、iPad、Android、Android Pad、Windows Phone 7、Symbian、BlackBerry、Java等基于多平台的十几个版本，支持3000多款机型，多次被诺基亚、苹果、三星、黑莓、摩托罗拉、LG、OPPO、HTC、华为、魅族、夏普等知名企业官方推荐。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/wacai.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/wacai_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/wacai_1.jpg,http://shouji.2345.com/browser/market/imgs/wacai_2.jpg,http://shouji.2345.com/browser/market/imgs/wacai_3.jpg</screenslot>
+		</item>
+		<item>
+			<sid>17</sid>
+			<type_id>1</type_id>
+			<category_id>4</category_id>
+			<category_title>生活服务</category_title>
+			<ishot>1</ishot>
+			<recommend>1</recommend>
+			<title>灵动紫微斗数 - 命盘占卜</title>
+			<version>1.4.0</version>
+			<packageName>oms.mmc.fortunetelling.mmpay.lingdongziwei</packageName>
+			<versionCode>140</versionCode>
+			<totalDowns>675</totalDowns>
+			<fileLength>3.3 MB</fileLength>
+			<publicDate>2013-03-11</publicDate>
+			<mark>7</mark>
+			<summary>紫微斗数为一种星命术，是中国传统命理学中的一种。认为人出生时的星相决定人的一生，即人的命运。认为各种星曜对人的命运具有特定的关连，又因为星曜按一定次序出现，相应的人就按照这个次序接受星曜带来的影响。而分析人出生时的星相就可以判断人本身命运的好坏和时间顺序。因为在这个星相分析的系统里以紫微星为诸星之首，故此术名'紫微斗数'。</summary>
+			<url>http://shouji.2345.com/browser/market/apps/ziweidoushu.apk</url>
+			<icon>http://shouji.2345.com/browser/market/icons/ziweidoushu_icon.png</icon>
+			<screenslot>http://shouji.2345.com/browser/market/imgs/ziweidoushu_1.jpg,http://shouji.2345.com/browser/market/imgs/ziweidoushu_2.jpg,http://shouji.2345.com/browser/market/imgs/ziweidoushu_3.jpg</screenslot>
+		</item>
+	</software>
+	<!-- 结束 -->
+	<commonResp>
+		<RepeatID>38211,28392,32043,147670,27779,23209,14106,102524,32523,103512,5353,30690,27531,33686,101464,54185,95733,95948,47714,33795,14139,146388,31922,31990,101362,33803,32418,102700,23555,107684,67777,98263,137988,97125,101916,96160,32673,34650,42864,147750,101363,132515,33797,35965,33801,104526,31354,102860,31210,150582,134781</RepeatID>
+		<version>1377163891</version>
+	</commonResp>
+</response>

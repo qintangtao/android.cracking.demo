@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/activity_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.market2345.filebrowser.photoview.PhotoView android:id="@id/photoview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/retry_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@drawable/break_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/retry_btn" android:background="@drawable/retry_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/my_progress_style" />
+    <ProgressBar android:id="@id/download_progress" android:focusable="false" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="13.0dip" android:max="100" android:progressDrawable="@drawable/appdetail_download_progressbar_style" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

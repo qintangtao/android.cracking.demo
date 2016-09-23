@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/default_blank" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title" android:background="@color/main_blue_new" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/left_btn" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" style="@style/style_wrap_fill" />
+        <TextView android:id="@id/page_title" android:text="@string/fast_tv_title_union" android:drawablePadding="0.0dip" android:layout_toRightOf="@id/left_btn" style="@style/page_title_style" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/title01" android:background="@drawable/fast_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title">
+        <ImageView android:id="@id/image01" android:background="@drawable/fast_apps" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" />
+        <TextView android:id="@id/select_fast_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/image01" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/select_all" android:background="@drawable/item_notcheck" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/select_all_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="全选" android:layout_toLeftOf="@id/select_all" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/recommend_iv" android:background="@drawable/item_notcheck" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:layout_toLeftOf="@id/select_all_01" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/recommend_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="推荐" android:layout_toLeftOf="@id/recommend_iv" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/devideline" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/title01" />
+    <RelativeLayout android:gravity="center" android:id="@id/title02" android:background="@drawable/fast_install_all_bg" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/install_all" android:background="@drawable/fast_install" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="一键安装" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/title03" android:background="@drawable/fast_save_dir" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/title02">
+        <TextView android:textColor="@color/fenlei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="软件下载目录：/sdcard/2345手机助手/apk/" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/title03" android:layout_below="@id/devideline">
+        <ListView android:id="@id/list" android:visibility="gone" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="0.0dip" android:cacheColorHint="@android:color/transparent" android:divider="@color/list_divider" android:dividerHeight="1.0dip" android:splitMotionEvents="false" />
+        <include android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loading" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:gravity="clip_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mobile_clear_bigfile_list_info_name_pre" style="@style/style_item_summary_title_text" />
+        <TextView android:textSize="14.0dip" android:gravity="center_vertical" android:id="@id/dialog_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18M" android:singleLine="true" style="@style/style_item_summary_title_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/middle_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textSize="14.0dip" android:gravity="clip_vertical" android:id="@id/size_pre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cache_clear_list_size_pre" style="@style/style_item_summary_title_text" />
+        <TextView android:textSize="14.0dip" android:gravity="center_vertical" android:id="@id/dialog_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18M" android:singleLine="true" style="@style/style_item_summary_title_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/from_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textSize="14.0dip" android:gravity="clip_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mobile_clear_bigfile_list_info_from_pre" style="@style/style_item_summary_title_text" />
+        <TextView android:textSize="14.0dip" android:gravity="center_vertical" android:id="@id/from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18M" android:singleLine="true" style="@style/style_item_summary_title_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/position_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textSize="14.0dip" android:gravity="clip_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mobile_clear_bigfile_list_info_position_pre" style="@style/style_item_summary_title_text" />
+        <TextView android:textSize="14.0dip" android:gravity="center_vertical" android:id="@id/dialog_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18M" android:maxLines="3" style="@style/style_item_summary_title_text" />
+    </LinearLayout>
+</LinearLayout>

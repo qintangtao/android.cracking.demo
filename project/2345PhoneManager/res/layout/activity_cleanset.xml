@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/default_blank" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar_layout" android:background="@color/main_blue_new" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/ibtn_left" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" style="@style/style_wrap_fill" />
+        <TextView android:textSize="17.0dip" android:id="@id/page_title" android:text="垃圾清理设置" android:layout_toRightOf="@id/ibtn_left" style="@style/page_title_style" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_clean_alert_set" android:background="@drawable/setting_item" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="17.0dip" android:textColor="@color/main_text_color" android:id="@id/tv_clean_alert_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="垃圾清理设置" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/radio_text_color" android:id="@id/tv_clean_alert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="为手机垃圾清理设置一个提醒计划" android:singleLine="true" android:layout_below="@id/tv_clean_alert_show" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_clean_alert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_open" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/rl_clean_time_set" android:background="@drawable/setting_item" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="17.0dip" android:textColor="@color/textview_bg_textcolor" android:id="@id/tv_clean_time_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="提醒间隔" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/radio_text_color" android:id="@id/tv_clean_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/clean_time_set" android:singleLine="true" android:layout_below="@id/tv_clean_time_show" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_clean_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/rl_clean_size_set" android:background="@drawable/setting_item" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="17.0dip" android:textColor="@color/textview_bg_textcolor" android:id="@id/tv_clean_size_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="提醒大小" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/radio_text_color" android:id="@id/tv_clean_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/clean_size_set" android:singleLine="true" android:layout_below="@id/tv_clean_size_show" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_clean_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/rl_clean_trust_set" android:background="@drawable/setting_item" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="17.0dip" android:textColor="@color/main_text_color" android:id="@id/tv_clean_trust_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="垃圾忽略名单" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/radio_text_color" android:id="@id/tv_clean_trust" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/tv_clean_trust_show" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_clean_trust" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/rl_clean_database_set" android:background="@drawable/setting_item" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/rl_clean_trust_set">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="17.0dip" android:textColor="@color/main_text_color" android:id="@id/tv_clean_database_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自动更新清理库" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/radio_text_color" android:id="@id/tv__clean_database" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/clean_database_upgrade_set" android:singleLine="true" android:layout_below="@id/tv_clean_database_show" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_clean_database" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_open" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

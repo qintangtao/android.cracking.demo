@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/about_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar_layout" android:background="@color/main_blue_new" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="@dimen/about_height1">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/left_btn" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" android:layout_centerVertical="true" style="@style/style_wrap_fill" />
+        <TextView android:id="@id/page_title" android:layout_marginLeft="1.0dip" android:text="关于" android:drawablePadding="0.0dip" android:layout_toRightOf="@id/left_btn" style="@style/page_title_style" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_bar_layout">
+        <ImageView android:background="@drawable/about_info" android:layout_width="@dimen/about_image_width" android:layout_height="@dimen/about_image_height" android:layout_marginTop="@dimen/about_height2" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/main_blue_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_height3" android:text="A股上市公司荣誉出品" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/fenlei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_height4" android:layout_marginBottom="@dimen/about_height5" android:text="（股票代码：002195）" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/check_update" android:background="@drawable/about_info_bg" android:layout_width="fill_parent" android:layout_height="@dimen/about_item_height" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+            <ImageView android:id="@id/iv_new_version" android:background="@drawable/about_new_version_bg_selector" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff6d728f" android:id="@id/version_info" android:layout_marginLeft="10.0dip" android:text="版本信息：" android:singleLine="true" android:layout_toLeftOf="@id/iv_new_version" android:layout_centerVertical="true" style="@style/style_fill_wrap" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/about_info_sperate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/go_to_office" android:background="@drawable/about_info_bg" android:layout_width="fill_parent" android:layout_height="@dimen/about_item_height" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff6d728f" android:layout_gravity="center_vertical" android:id="@id/office_site" android:layout_marginLeft="10.0dip" android:text="官方地址： " android:singleLine="true" style="@style/style_fill_wrap" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/about_info_sperate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/go_weibo" android:background="@drawable/about_info_bg" android:layout_width="fill_parent" android:layout_height="@dimen/about_item_height" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff6d728f" android:layout_gravity="center_vertical" android:id="@id/weibo_office" android:layout_marginLeft="10.0dip" android:text="官方微博： " android:singleLine="true" style="@style/style_fill_wrap" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/about_info_sperate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/goto_weixin" android:background="@drawable/about_info_bg" android:layout_width="fill_parent" android:layout_height="@dimen/about_item_height" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff6d728f" android:layout_gravity="center_vertical" android:id="@id/weixin_office" android:layout_marginLeft="10.0dip" android:text="官方微信： " android:singleLine="true" style="@style/style_fill_wrap" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/thanks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对2345的大力支持" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/about_info_sperate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_height7">
+            <TextView android:textSize="13.0sp" android:textColor="@color/copyright" android:id="@id/copy_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copyright" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/company_name" android:id="@id/company_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/domain_name" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

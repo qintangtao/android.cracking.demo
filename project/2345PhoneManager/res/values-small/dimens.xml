@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clean_finish_history_text_buttom">10.0dip</dimen>
+    <dimen name="clean_finish_history_text_top">6.0dip</dimen>
+    <dimen name="clean_finish_text_top">3.0dip</dimen>
+</resources>

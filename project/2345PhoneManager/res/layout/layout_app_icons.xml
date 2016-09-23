@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_image1" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <ImageView android:id="@id/iv_image2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="1.5dip" />
+    <ImageView android:id="@id/iv_image3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="1.5dip" android:layout_marginRight="3.0dip" />
+    <ImageView android:id="@id/iv_image4" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="4.0dip" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/company_name" android:layout_gravity="center_vertical" android:id="@id/tv_number_app_upgrade" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

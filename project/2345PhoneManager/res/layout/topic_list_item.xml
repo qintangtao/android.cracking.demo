@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="title" android:drawableLeft="@drawable/topic_list_item_title_marker" android:drawablePadding="10.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip">
+        <com.market2345.customview.FillWidthImageView android:layout_gravity="center_horizontal" android:id="@id/iv_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/topic_image_default_big" />
+    </FrameLayout>
+    <View android:background="@color/list_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" />
+</LinearLayout>

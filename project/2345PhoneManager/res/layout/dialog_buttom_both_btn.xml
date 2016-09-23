@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/dialog_text_color_cancel" android:layout_gravity="right" android:id="@id/dialog_btn1" android:background="@drawable/dialog_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="0.5dip" android:text="@string/no_zh" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/diaglog_text_color" android:layout_gravity="left" android:id="@id/dialog_btn0" android:background="@drawable/dialog_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/clear" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

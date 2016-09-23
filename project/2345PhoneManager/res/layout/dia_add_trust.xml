@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="330.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+        <ImageView android:id="@id/iv_icon" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/dialog_title_text_color" android:gravity="center_vertical" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="手机助手的垃圾" />
+    </LinearLayout>
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/diaglog_text_color" android:gravity="center" android:id="@id/btn_add_trust" android:background="@drawable/dialog_btn_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="加入忽略名单" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/activity_background_color" android:paddingTop="15.0dip" android:paddingBottom="5.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_pic" android:background="@drawable/file_management_dir_bg" android:layout_width="158.0dip" android:layout_height="111.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/iv_image" android:background="@drawable/file_management_pic_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="4.5dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="9.5dip" android:src="@drawable/file_management_pic_default" android:scaleType="centerCrop" android:contentDescription="@null" />
+    </RelativeLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@color/detail_downloading" android:ellipsize="middle" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="dirname" android:singleLine="true" android:layout_below="@id/rl_pic" android:layout_centerHorizontal="true" />
+</RelativeLayout>

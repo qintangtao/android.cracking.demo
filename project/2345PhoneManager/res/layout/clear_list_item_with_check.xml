@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/root" android:background="@drawable/home_list_middle_item_selector" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip">
+        <ImageView android:gravity="center" android:id="@id/icon" android:background="@drawable/mobile_clear_residual_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="6.0dip" android:cropToPadding="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <CheckBox android:gravity="center" android:id="@id/action" android:padding="5.0dip" android:paddingTop="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:button="@drawable/mobile_clear_btn_check" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0dip" android:gravity="center_vertical" android:layout_gravity="center|left" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/clear_cache_clear_list_item_zhushou" android:singleLine="true" android:drawablePadding="4.0dip" android:layout_toLeftOf="@id/action" android:layout_toRightOf="@id/icon" style="@style/style_item_primary_title_text" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toLeftOf="@id/action" android:layout_below="@id/name" android:layout_alignLeft="@id/name">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:gravity="clip_vertical" android:id="@id/size_pre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cache_clear_list_size_pre" android:layout_below="@id/name" android:layout_alignLeft="@id/name" style="@style/style_item_summary_title_text" />
+                <TextView android:textColor="#ffff602f" android:gravity="center_vertical" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18M" android:singleLine="true" android:layout_toRightOf="@id/size_pre" style="@style/style_item_summary_title_text" />
+            </LinearLayout>
+            <TextView android:gravity="left" android:id="@id/ext_info" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="18M" android:singleLine="true" android:layout_weight="1.0" style="@style/style_item_summary_title_text" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

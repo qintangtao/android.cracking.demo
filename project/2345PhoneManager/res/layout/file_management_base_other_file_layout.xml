@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/default_blank" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/file_management_base_top_menu" />
+    <include android:id="@id/file_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_menu" layout="@layout/file_management_base_type" />
+    <include android:id="@id/bottom_delete" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/file_management_base_bottom" />
+    <ListView android:id="@id/lv_list" android:visibility="gone" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:cacheColorHint="@android:color/transparent" android:divider="@color/list_divider" android:dividerHeight="0.5dip" android:layout_above="@id/bottom_delete" android:layout_below="@id/file_type" android:headerDividersEnabled="true" android:splitMotionEvents="false" />
+    <include android:id="@id/no_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/file_management_base_no_data" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/file_type" layout="@layout/loading" />
+</RelativeLayout>

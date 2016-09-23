@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/expandtextcolor" android:gravity="center|left" android:id="@id/dialog_title" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="是否删除" />
+    <View android:id="@id/content" android:background="@color/expandtextcolor" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/dialog_title" />
+    <RelativeLayout android:gravity="left" android:id="@id/checkinfo_linearlayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/content">
+        <TextView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="center|left" android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:text="确定要删除文件夹?" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.2" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingTop="20.0dip" android:paddingRight="15.0dip" android:paddingBottom="20.0dip" android:visibility="visible" android:drawingCacheQuality="high" android:persistentDrawingCache="all" android:alwaysDrawnWithCache="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/checkinfo_linearlayout">
+        <Button android:textSize="16.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/dialog_btn0" android:background="@drawable/dra_com_dia_btn_single_blue" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="@string/yes_zh" android:singleLine="true" android:maxLength="15" android:layout_weight="2.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_blue_new" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar_layout" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/ibtn_left" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" style="@style/style_wrap_fill" />
+        <TextView android:textSize="17.0dip" android:id="@id/page_title" android:text="@string/btn_junk_clean" android:layout_toRightOf="@id/ibtn_left" style="@style/page_title_style" />
+        <ImageView android:id="@id/iv_clean_setting" android:background="@drawable/clean_setting_bg" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/setting_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/rl_show" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/fl_idle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_sun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clean_sun_bg" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_sun_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clean_sun_center_bg" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_high_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-400.0dip" android:src="@drawable/high_light" />
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mask_blue" />
+        </FrameLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/tv_clean_success_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/clean_success_size" android:layout_below="@id/fl_idle" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/tv_history_clean_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_below="@id/tv_clean_success_size" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/btn_ok" android:background="@drawable/clean_ok_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="60.0dip" android:text="@string/ok" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_manager_sdcard" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:layout_weight="1.0">
+            <com.market2345.dumpclean.widget.VolumnView android:id="@id/v_volumn_view" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip">
+                <TextView android:textSize="17.0dip" android:textColor="@color/fenlei_02" android:gravity="center_vertical" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="存储空间不足" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/sdcard_spcae_size_usage" android:gravity="center_vertical" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="23.0dip">
+            <Button android:textSize="14.0dip" android:textColor="#ff4d4d4d" android:id="@id/btn_no_manager_sdcard" android:background="@drawable/clean_btn_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="下次再说" android:layout_weight="1.0" />
+            <Button android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/btn_manager_sdcard" android:background="@drawable/clean_btn_green_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="管理文件" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

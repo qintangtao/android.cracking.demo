@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/list" android:layout="@layout/view_stub_gift_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/un_login_view" android:layout="@layout/view_stub_user_gift_un_login" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/common_loading" />
+</FrameLayout>

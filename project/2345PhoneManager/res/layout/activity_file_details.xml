@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/default_blank" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar_layout" android:background="@color/main_blue_new" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="@android:color/white" android:id="@id/ibtn_left_back" android:background="@drawable/menu_back_selector" android:paddingLeft="4.0dip" android:contentDescription="@null" style="@style/style_wrap_fill" />
+        <TextView android:id="@id/page_title" android:text="@string/install_manager" android:drawablePadding="0.0dip" android:layout_toRightOf="@id/ibtn_left_back" style="@style/page_title_style" />
+        <ImageButton android:gravity="center" android:id="@id/ibtn_right" android:background="@drawable/file_details_icon_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <HorizontalScrollView android:id="@id/hsv_idle" android:background="@color/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_bar_layout">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_idle" android:layout_width="fill_parent" android:layout_height="35.0dip">
+            <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/tv_file_root" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableRight="@drawable/icon_path_arrow_small" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/hsv_idle" />
+    <ListView android:id="@id/lv_file" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:divider="@color/main_divide_color" android:dividerHeight="0.5dip" android:layout_below="@id/hsv_idle" android:headerDividersEnabled="false" android:splitMotionEvents="false" />
+</RelativeLayout>

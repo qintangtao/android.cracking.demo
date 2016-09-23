@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/guide_slidingmenubutton_backgroud" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/text" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="40.0dip" android:src="@drawable/guide_slidingmenubutton_bottom" />
+        <Button android:layout_gravity="bottom" android:id="@id/button" android:background="@drawable/guidebuttonselecter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:layout_marginBottom="50.0dip" android:layout_below="@id/image" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

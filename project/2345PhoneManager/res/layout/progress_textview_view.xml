@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/app_list_item_right" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_progress" android:background="@drawable/item_down_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/union_textview_clip_blue_loading" android:scaleType="fitXY" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/default_15dp" android:ellipsize="end" android:gravity="center" android:id="@id/app_instal_progress" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载" android:singleLine="true" android:maxLength="30" android:layout_centerInParent="true" android:marqueeRepeatLimit="marquee_forever" />
+</RelativeLayout>

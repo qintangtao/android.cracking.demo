@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_title_text_size" android:textColor="@color/dialog_title_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_dialog_title" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:text="提醒大小" android:singleLine="true" />
+    <View android:background="@color/main_divide_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/lv_show" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:divider="@color/main_divide_color" android:dividerHeight="0.5dip" android:splitMotionEvents="false" />
+    </LinearLayout>
+</LinearLayout>
